@@ -1,0 +1,94 @@
+About C Program
+On this page we will discuss about the C programs that won’t compile in C++. There are a few key differences between C and C++ that can lead to different behaviour in programs written in these languages.
+C Program that won’t Compile in C++
+C Programs that won’t compile in C++
+Even though C++ was developed to be compatible with C, but there are many C programs that can lead to compilation errors when compiled using a C++ compiler.
+Here, is list of some of the C programs that won’t compile in C++ :
+
+1) Using normal pointer with const variable: In C, it is possible to use a normal pointer (non-const pointer) to point to a const variable.
+However, in C++, this is not allowed and will result in a compiler error.
+
+Example:
+Run
+#include <stdio.h>
+
+int main()
+{
+  const int x = 5;
+  
+  int *ptr = &x; // non-const pointer pointing to a const variable
+  *ptr = 10;
+  
+  // The below assignment is invalid in C++,results in error.
+  // In C, the compiler may throw a warning, but casting is implicitly allowed
+  printf ("x = %d\n", x);
+  
+  return 0;
+}
+Output:
+x = 10
+2) Using typecasted pointers: In C, it is possible to use typecasting to convert between different types of pointers.
+However, in C++ this is generally not allowed and will result in a compiler error.
+
+Example:
+Run
+#include <stdio.h>
+
+int main()
+{
+  int x = 5;
+  double* d_ptr = (double *) &x;
+  
+  printf ("x = %f\n", *d_ptr);
+  
+  return 0;
+}
+Output:
+x = -0.000000
+C tutorial desk gif
+Related Pages
+Function in C++
+
+Static Members in C++
+
+virtual in C++
+
+Pointers in C++
+
+References in C++
+
+3) Declaring constant values without initializing: In C, it is possible to declare a constant variable without initializing it. The variable will still have a memory space allocated to it, but it’s value will be undefined and could contain any random value.
+However, in C++, this is not allowed, and the compiler will raise an error.
+
+Example:
+Run
+#include <stdio.h>
+
+int main()
+{
+  const int x;
+  printf("x = %d\n", x);
+  
+  return 0;
+}
+Output:
+x = 0
+4) Strict type checking: C does not have strict type checking when it comes to arithmetic operations and it allows you to perform operations between different data types, like int and float. However, in C++ this is generally not allowed and will result in a compiler error.
+
+Example:
+Run
+#include <stdio.h>
+
+int main()
+{
+  int x = 5;
+  float y = 2.5;
+  
+  int result = x + y;  // mixing int and float type
+  
+  printf ("result = %d\n", result);
+  
+  return 0;
+}
+Output:
+result = 7
