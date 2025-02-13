@@ -1,0 +1,76 @@
+Undefined Behavior
+On this page we will discuss about undefined behavior in C and C++ .
+In the C and C++ programming languages, “undefined behavior” refers to a situation where the behavior of a program is not defined by the language’s standard, and can therefore be different on different systems or with different compilers.
+Joins in DBMS
+About Undefined Behavior in C and C++
+Undefined behavior can lead to unexpected results, including crashes, incorrect output, or other unintended behavior.
+
+Knowing about undefined behavior is important for several reasons:
+
+Debugging: Understanding the potential sources of undefined behavior can help you identify and fix bugs in your code more quickly.
+Security: Undefined behavior can sometimes be exploited by attackers to gain unauthorized access to a system or to cause a crash. By identifying and avoiding undefined behavior, you can make your code more secure.
+Portability: Programs that rely on undefined behavior may work correctly on one system or with one compiler, but not on another. By avoiding undefined behavior, you can make your code more portable, so it will work correctly on a variety of systems and with different compilers.
+Performance: Some undefined behavior can cause programs to run more slowly or to consume more resources than necessary. By avoiding undefined behavior, you can make your code more efficient.
+Compliance: Many programming standards and guidelines (e.g MISRA C++, CERT C++ ) prohibit the use of undefined behavior. By adhering to these standards, you can ensure that your code is compliant with industry best practices.
+Note:
+In summary, knowing about undefined behavior and how to avoid it is important for creating robust, secure, and efficient code that is portable across different systems and compilers.
+Examples of Undefined Behavior in C and C++
+Accessing an array out of bounds: Attempting to access an element of an array that is beyond the array’s bounds will cause undefined behavior.
+
+int arr[10];
+printf("%d", arr[10]); // undefined behavior
+Deferencing a null pointer: Attempting to access the value of a pointer that has not been initialized or has been set to the null value will cause undefined behavior.
+
+int *ptr = NULL;
+printf("%d", *ptr); // undefined behavior
+Using a variable before it has been initialized: Using a variable before it has been initialized with a value can cause undefined behavior.
+
+int x;
+printf("%d", x); // undefined behavior
+
+Related Pages
+Function in C++
+
+Static Members in C++
+
+virtual in C++
+
+Pointers in C++
+
+References in C++
+
+Overflowing an integer: Attempting to assign a value to an integer that is too large to be represented by that type of integer will cause undefined behavior.
+
+unsigned int x = 0;
+x--; // undefined behavior
+Mixing signed and unsigned integers: Comparing signed integers with unsigned integers can lead to undefined behavior.
+
+signed int x = -1;
+unsigned int y = 1;
+if (x > y) // undefined behavior
+Accessing non-static member of class before constructor is called: In C++, accessing non-static member variables or function before the constructor is called will result in undefined behavior.
+
+class A {
+  int x;
+public:
+  A() {}
+};
+
+int main() {
+  A a;
+  printf("%d", a.x); // undefined behavior
+  return 0;
+}
+Exception handling: Throwing an exception in a destructor or in a constructor of a local variable will cause undefined behavior.
+
+class A {
+public:
+  ~A() {
+    throw "exception in destructor"; // undefined behavior
+  }
+};
+int main() {
+  A a;
+  throw "exception";
+  return 0;
+}
