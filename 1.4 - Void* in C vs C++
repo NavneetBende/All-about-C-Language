@@ -1,0 +1,85 @@
+How does ‘void*’ differ in C and C++ ?
+On this page we will discuss about difference in void* in C vs C++ . void* is a type of pointer that points to an area of memory holding data of an unknown type. It is often used as a generic type for passing pointers around in a code, since it can hold the address of any type of object.
+
+void* in C vs C++
+Difference in void* in C vs C++
+The void* type behaves similarly in both C and C++, as it is used to represent a pointer to an area of memory that holds data of an unknown type. However, there are a few key differences between the way void* is used in these two languages:
+
+In C++, void* can be used as the type of a function parameter or return value, while in C it cannot. In C, you must use a specific pointer type instead.
+In C++, void* can be explicitly converted to and from any other pointer type using the static_cast operator. In C, you must use a type cast to perform this conversion.
+In C++, void* cannot be dereferenced directly. You must first cast it to a pointer of a specific type before you can use it to access the data it points to. In C, you can dereference a void* pointer using a type cast.
+void *p;
+int *int_ptr = (int *) p;
+int *arr_ptr = (int *) malloc(sizeof(int) * 10);
+This code will execute in both c and c++ .
+
+Note:
+Overall, void* is a more powerful and flexible construct in C++ than in C, but it is also more prone to error if used improperly. It is generally recommended to use specific pointer types or templates in C++ instead of void* wherever possible.
+
+Related Pages
+Function in C++
+
+Static Members in C++
+
+virtual in C++
+
+Pointers in C++
+
+References in C++
+
+Example of void* in C
+Run
+#include <stdio.h>
+
+// Function that takes a void* argument and prints the value it points to
+void print_value(void* p) {
+  
+  // Must cast void* to a pointer of a specific type before dereferencing
+  int* q = (int*)p;
+  printf("%d\n", *q);
+}
+
+int main() {
+    
+  int x = 10;
+  // Assign address of x to a void* pointer
+  
+  void* p = &x;
+  // Pass void* pointer to function as argument
+  
+  print_value(p);  
+  return 0;
+}
+Output:
+10
+In the C example, the print_value function does the same thing, but uses a type cast instead of the static_cast operator to convert the void* to an int*.
+
+Example of void* in C++
+Run
+#include <iostream>
+using namespace std;
+
+// Function that takes a void* argument and prints the value it points to
+void print_value(void* p) {
+    
+  // Must cast void* to a pointer of a specific type before dereferencing
+  int* q = static_cast(p);
+  
+  cout << *q << endl;
+}
+
+int main() {
+    
+  int x = 10;
+  
+  // Assign address of x to a void* pointer
+  void* p = &x;
+  
+  // Pass void* pointer to function as argument
+  print_value(p);  
+  
+  return 0;
+}
+Output:
+10
+In the C++ example, the print_value function takes a void* argument and prints the value it points to by first casting the pointer to an int* and then dereferencing it.
