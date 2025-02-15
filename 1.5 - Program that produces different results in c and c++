@@ -1,0 +1,117 @@
+Program in C and C++
+On this page we will discuss about the program that produces different results in C and C++ . There are a few key differences between C and C++ that can lead to different behavior in programs written in these languages.
+Program that Produces Different Results in C and C++
+Different Program in C and C++
+Here, we will write a program that compiles and runs in both C and C++ but give different output when compiled by the C and C++ compilers.
+
+There could be many such programs, here are a few examples.
+
+1) Character literals: In C and C++, character literals such as ‘a’, ‘b’, etc. are handled in distinct ways. In C, they are considered as integers, while in C++ they are considered as characters.
+
+This distinction can be seen in following example by the fact that the size of a character literal in a C program results in sizeof(int), but it results in sizeof(char) in a C++ program.
+
+C Program
+Run
+#include <stdio.h>
+
+int main()
+{
+  printf("sizeof('f') =  %lu" , sizeof('f'));
+
+  return 0;
+}
+Output:
+sizeof('f') =  4 
+C++ Program
+Run
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "sizeof('f') = " << sizeof('f') << endl;
+    
+    return 0;
+}
+Output:
+sizeof('f') = 1 
+2) Struct variables: When declaring struct variables in C, it is necessary to include the struct tag, for example using “struct Employee” to refer to a struct of type Employee. In C++, this tag is not required and the struct name “Employee” can be used on its own.
+
+This difference can be observed by comparing the output of a program in C and C++ . In C it would print sizeof(int) and in C++ it would print sizeof(struct AB).
+
+C Program
+Run
+#include<stdio.h>
+int AB;
+int main()
+{
+    struct AB  // In C++, this AB hides the global variable AB, 
+  {           // but not in C
+    double y;
+  };  
+                             
+    printf("sizeof(AB) =  %d", sizeof(AB));
+
+    return 0;
+}
+Output:
+sizeof(AB) = 4
+C tutorial desk gif
+Related Pages
+Function in C++
+
+Static Members in C++
+
+virtual in C++
+
+Pointers in C++
+
+References in C++
+
+C++ Program
+Run
+#include<iostream>
+using namespace std;
+
+int AB;
+
+int main()
+{
+  struct AB
+  {
+    double y;
+  };
+  
+  cout << "sizeof(AB) =  " << sizeof (AB);
+  
+  return 0;
+}
+Output:
+sizeof(AB) = 8
+3) Boolean literals: C++ supports the literals “true” and “false” for boolean values, whereas in C, you would typically use the integers 1 and 0 to represent true and false.
+
+C Program
+Run
+#include <stdio.h>
+
+int main()
+{
+    printf("sizeof(2==2) =  %d", sizeof(2==2)); // which is size of int
+
+    return 0;
+}
+Output:
+sizeof(2==2) =  4
+C++ Program
+Run
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "sizeof(2==2) = " << sizeof(2==2); 
+
+    return 0;
+}
+Output:
+sizeof(2==2) = 1
