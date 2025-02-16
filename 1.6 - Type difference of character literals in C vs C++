@@ -1,0 +1,59 @@
+How do character literal differs in C vs C++ ?
+On this page we will discuss about difference between character literal in C and C++. A literal is a notation used to represent constant values that do not change during the execution of the program. They are written directly in the code, and their values are known at compile time. A character literal is a single character enclosed in single quotes. It represents a single character value in the source code of a program.
+
+
+Type Difference of Character Literals in C vs C++
+Character literals are stored as integer values, with the ASCII value of the character being stored in the integer.
+Type int wil be numeric literals for both C and C++. This means that both sizeof(10) and sizeof(int) will return the same result.
+
+However, Character literals (for example, ‘A’) differ in their types, and also sizeof(‘A’) will return different values in C and C++.
+
+In C, character literals are always of type “int”, regardless of the character they represent. This means that a character literal like ‘a’ is stored as an integer value, with the ASCII value of the character being stored in the integer.
+In C++, character literals have a type of “char” if they fit within the range of a char, and “int” otherwise. This means that a character literal like ‘a’ will have a type of “char”, while a character literal like ‘é’ (which is outside the range of a char) will have a type of “int”.
+The type difference between character literals in C and C++ can be important when working with functions that have different overloads for “char” and “int” types.
+
+Overall, the type difference between character literals in C and C++ is an important aspect to consider when writing code in either language.
+
+Note:
+In C++, you need to be aware of the type of the character literal in order to choose the correct overload of the function.
+C tutorial desk gif
+Related Pages
+Function in C++
+
+Static Members in C++
+
+virtual in C++
+
+Pointers in C++
+
+References in C++
+
+Example of Character literal in C
+Run
+#include<stdio.h> 
+int main()
+{
+  printf("a = %d\n", 'a');
+  printf("sizeof('a') =  %lu" , sizeof('a'));
+  return 0;
+}
+Output:
+a = 97
+sizeof('a') = 4
+Example of Character literal in C++
+Run
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char a = 'v';
+    cout << "sizeof('a') = " << sizeof('a') << endl;
+    cout << "a = " << a << endl;;
+    return 0;
+}
+Output:
+sizeof('a') = 1
+a = v
+In both examples, we are printing the value of a character literal. In C, the character literal is interpreted as an int and the ASCII value of the character is printed. In C++, the character literal is interpreted as a char and the character itself is printed.
+
+This illustrates the difference between character literals in C and C++, and how the type and behavior of the literals can change depending on the language being used.
