@@ -1,0 +1,93 @@
+How do Structure differ in C and C++ ?
+On this page we will discuss about difference between structure in C and C++.
+A structure is a very user friendly data type which lets the user define the types of different data which can be stored in the structure, i.e. we can store integer, float, character, and string in one place(under one identifier). The elements saved in a structure are called it’s members.
+Difference between Structure in C and C++
+Structure in C & C++
+In C, structure are used to group together variables of different data types, whereas in C++, structure can also contain functions and data types in addition to variables.
+Here we will discuss the key difference between structure in C and C++ despite syntactical similarities.
+
+Key differences between Structure in C and C++
+C Structure	C++ Structure
+In C, we cannot define a constructor for a structure.	In C++, we can define a constructor for a structure.
+Overloaded operators are not allowed in C structure.	Overloaded operators are allowed in C++ structure.
+We can only define functions that operate on structures outside of the structure definition.	We can define member functions inside structures, which are functions that operate on the data contained in the structure.
+Object of a structure can be accessed using “arrow” notation in C.	Object of a structure can be accessed using the “dot” notation in C++.
+We cannot define an object of a structure using the “new” operator.	We can define an object of a structure using the “new” operator.
+C structures cannot have static members.	C++ structures can have static members.
+In C, we cannot define default values for the members of a structure.	In C++, we can define default values for the members of a structure.
+The sizeof operator can be used to determine the size of individual member in C.	The sizeof operator can be used to determine the size of structure in bytes in C++
+In C, we have to write ‘struct’ keyword to declare structure type variables.	In C++, we do not need to use ‘struct’ keyword for declaring variables.
+Data hiding feature is not allowed in C structure.	Data hiding feature is allowed in C++ structure.
+Note:
+Overall, C++ structure are more powerful and flexible than C structure, but they also require a bit more code to be used properly.
+
+Related Pages
+Function in C++
+
+Static Members in C++
+
+virtual in C++
+
+Pointers in C++
+
+References in C++
+
+Example of Structure in C
+Run
+#include<stdio.h>
+#include<string.h>
+struct Person
+{
+  char name[20];
+  int age;
+  float salary;
+};
+void print_person (struct Person p)
+{
+  printf ("Name: %s\n", p.name);
+  printf ("Age: %d\n", p.age);
+  printf ("Salary: %f\n", p.salary);
+}
+int main ()
+{
+  struct Person p;
+  strcpy (p.name, "John Smith");
+  p.age = 30;
+  p.salary = 50000.0;
+
+  print_person (p);
+  return 0;
+}
+Output:
+Name: John Smith
+Age: 30
+Salary: 50000.000000
+Example of Structure in C++
+Run
+#include<bits/stdc++.h>
+using namespace std;
+struct Person
+{
+  char name[20];
+  int age;
+  float salary;
+  void print ()
+  {
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+    cout << "Salary: " << salary << endl;
+  }
+};
+int main ()
+{
+  Person p;
+  strcpy (p.name, "John Smith");
+  p.age = 30;
+  p.salary = 50000.0;
+  p.print ();
+  return 0;
+}
+Output:
+Name: John Smith
+Age: 30
+Salary: 50000
