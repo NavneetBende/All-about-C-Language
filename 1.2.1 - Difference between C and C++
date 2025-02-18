@@ -1,0 +1,96 @@
+Difference between C and C++
+When it comes to programming languages, C and C++ are two names that often pop up. Both languages are widely used and have made significant contributions to the world of software development.
+
+However, they have distinct differences in terms of functionality, features, and application. In this article, we will explore the dissimilarities between C and C++, helping you make an informed choice when it comes to selecting the right language for your programming needs.
+
+Difference Between C and C++
+C++ is an enhanced version of C which has Object-oriented flavour which enhanced the developer  speed and productivity
+MongoDB and Apache HTTP server had its design motivation from C++ alone
+Top 10 Key differences between C and C++
+Parameters	C	C++
+1.	History	Dennis Ritchie from The United States of America developed C language in 1972.	C++ is introduced in the early ’80s (1982) by Bjarne Stroustrup at AT& T Bell Labs Murray Hills, NewJersey,USA.
+2.	Language Type	C is a procedural programming languge.	C++ is a hybrid programming language i.e. (Procedural+OOPs).
+3.	Approach	C use top-down approach.	C++ uses bottom-up approach.
+4.	Keywords	C has 32 Keywords.	C++ supports 95 Keywords.
+5.	Memory Allocation	C use calloc() and malloc() functions for dynamic memory allocation and free() for de-allocation.	C++ use new operator for dynamic memory allocation and delete operator for de-allocation.
+6.	Object Oriented Programming Support	C do not support any kind of OOP features.	C++ is an OOP based language and support all OOPs features.
+7.	Access Modifiers	C structure does not have access modifiers.	Access modifiers are used in C++ structures.
+8.	Vitual and friend functions	No support for virtual and friend function in C	C++ supports virtual and friend functions.
+9.	Support for error handling	No support for error handling.	try catch throw blocks help in error handling.
+10.	Namespace	Does not support namespace resulting in less effecient code and name collisions.	Supports namespace to prevent name collisions.
+11.	Function and Operator overloading.	C does not support function and operator overloading directly.	C++ supports function and operator overloading.
+12.	Reference Variable	No support for refrdence variables.	C++ supports refrence variable.
+13.	Use By	Microsoft Windows Kernel, Telegram Messenger, Oracle Database, MySQL, etc.	Google Chrome, Microsoft Office, Torque 3-D game engine, and so many more.
+
+Related Pages
+C++ Introduction
+
+History of C++
+
+Structure of a C++ Program
+
+Program to check armstrong number or not
+
+1: Object-Oriented Design
+C++ has support for Class, object, inheritance, abstraction, etc as a result code reusability, data hiding, and memory management is possible
+C doesn’t have OOPs features, data is open everywhere and move freely through functions
+2: Procedural v/s Hybrid Language
+C is a procedural language i.e development of code in the form of a list of  instructions (functions) where each instruction conveys the compiler to do some action
+C++ is viewed as Hybrid language i.e it can be used as object-oriented or traditional C type Procedural Programming i.e using OOPS in C++ is optional whereas in java it is mandatory.
+3: Namespace Feature
+C has predefined function support only in the form of header files, as a result, you cannot duplicate the names within the file or program
+C++ has namespace feature which enables to have same names for functions or variables which  solves naming collision problem
+With namespace in C++
+Run
+#include<iostream>
+namespace Prep1  //first namespace
+{
+    int a = 1;
+}
+namespace Prep2  //2nd namespace
+{
+    int a = 2; //same name but different namespace
+}
+int main()
+{
+    cout << Prep1::a;
+    cout << Prep2::a;
+  
+    return 0;
+}
+Without namespace in C++
+Run
+#include<iostream>
+int main()
+{
+    int a = 1;
+    // int a = 2 error: a is previously used
+
+    return 0;
+}
+4: Reference Variables support
+Reference variables enable the user to have multiple variables point a single memory address which is not possible in C
+C++ has only pointer support: When the reference variable is lost it can be accessed through another alias variable, but if the pointer is lost,  the whole security comes into question
+Learn more about references: Reference Variables in C++
+
+5: Keywords
+C supports 32 keywords whereas C++ has also the same 32 keywords and along with exclusive 20 keywords it has a count of 52 keywords in C++
+6: Overloading of functions and operators
+C++ can have  different functionalities for the same operator
+ex: + can join a string and arithmetic addition of numbers (using Operator Overloading)
+C++ can have the same name for different functions where the only type of input is different (using Function Overloading)
+In C you have abs() labs() sabs() function here function code is the same only datatype is different but still, you need to have a different namer which  hampers readability.
+7: Subset v/s Superset
+C is a subset of C++ whereas C++ is a superset of C which means all the
+C codes can be clubbed or run alone in C++ compiler but vice-versa not possible.
+8: Support for exception handling
+C++ has direct support for exception handling in the form of try, throw, catch keywords which can avoid abnormal termination of the program due to runtime errors
+In C any runtime error occurs program shutdowns immediately
+ex: the situation of divide by 0 can be handled in C++ but in C it results in compiler failure.
+9: Designers and History
+C was developed by Dennis Ritchie In 1970s at AT&T Bell Labs with the combined features  of BCPL and Basic Programming Languages
+Inspired from the class feature of Simula67 and block structured
+programming of C, C++was developed by Bjarne Stroustrup in 1979 as an extension of C.
+10: When C and When C++
+C is the only option for embedded systems and System level code(operating System design)
+C++ gives High-end performance when used in device drivers, server-side applications, gaming, networking i.e super secure application design requires data-hiding from OOPS.
