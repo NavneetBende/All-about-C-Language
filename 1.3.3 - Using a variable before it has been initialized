@@ -1,0 +1,2 @@
+int x;
+printf("%d", x); // undefined behavior
