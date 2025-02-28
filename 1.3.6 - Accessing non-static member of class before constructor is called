@@ -1,0 +1,11 @@
+class A {
+  int x;
+public:
+  A() {}
+};
+
+int main() {
+  A a;
+  printf("%d", a.x); // undefined behavior
+  return 0;
+}
