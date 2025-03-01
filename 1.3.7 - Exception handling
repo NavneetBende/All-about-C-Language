@@ -1,0 +1,11 @@
+class A {
+public:
+  ~A() {
+    throw "exception in destructor"; // undefined behavior
+  }
+};
+int main() {
+  A a;
+  throw "exception";
+  return 0;
+}
