@@ -1,0 +1,6 @@
+ #include
+ int main()
+ {
+      printf("my name is somya");
+      printf("%d",4);
+ }
