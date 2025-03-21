@@ -1,0 +1,15 @@
+ 1.Integer constant -The whole values used in the C program are called integer constant.
+
+Like: 1,53,677 e.t.c.
+
+2.Character constant – The different characters used in the C program are called character constant.
+
+Like: f, v, s, w, # e.t.c.
+
+       3.Float constant – In C program, such numeric value in which the digit after the decimal is called float constant.
+
+Like: 4.44444, 34.6634 etc.
+
+4.String constant – many literal characters are placed under string literal.
+
+Like: “rat”, “prep”,etc.
