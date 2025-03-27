@@ -1,0 +1,6 @@
+A variable should be given a type in the C language,  which determines what kind of data the variable will hold. it can be:
+
+char : it can hold a character in it.
+int : it is used to hold an integer.
+double : it is used to hold a double value.
+float : it is used to hold a float value.
