@@ -1,0 +1,5 @@
+Local variables are those variables that are defined in a small block of the program such as function, control statement block etc. Such variables are used only by the same block.
+
+A variable inside the function/block is a local variable .
+Local Variables is inside the function.
+The default value of the Local variables is ‘garbage value’.
