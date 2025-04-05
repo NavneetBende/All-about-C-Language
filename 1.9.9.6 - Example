@@ -1,0 +1,9 @@
+#include<stdio.h> 
+int main()
+{
+     int a,b,c; // local variables
+     a =10;
+     b = 30;
+     c = a + b;
+     printf("%d",c);
+}
