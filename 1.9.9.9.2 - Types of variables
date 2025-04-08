@@ -1,0 +1,5 @@
+In the C programming language, variables can be defined in three different places.
+
+Local variables are variables found within a function or a block.
+Global variables are variables that exist outside of all functions.
+Formal parameters are used in the defining of function parameters.
