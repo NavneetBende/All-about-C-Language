@@ -1,3 +1,17 @@
 Local variables are those that are defined within a function or block.Only statements included within that function or code block are permitted to use them. Outside of their own function, local variables are unknown.
 
 Below example are representing the scope of local variables a and b.
+
+
+
+#include<stdio.h>
+
+int main() { -------------------------------1-----------------|
+                                                              |
+    int a, b;   // local variable                             
+                                                              |
+    a = 20;                                                   |
+    b= 10;                                                    |
+                                                              |
+    return 0;                                                 |
+}-------------------------------------------2-----------------|
