@@ -1,0 +1,16 @@
+Outside of a function, typically on top of the program, global variables are defined. Global variables can be accessed inside any of the functions created for the program and keep their values during its execution. Any function may access a global variable.
+In other words, once a global variable has been declared, it can be used throughout the entire program. 
+
+Below example are representing the scope of global variables c and d.
+
+#include <stdio.h> ----------------------------------------1--|
+int c,d; // global variable
+int main() { 
+
+int a,b; //local variable 
+                                                              |
+c=20;                                                         |
+d=10;                                                         |
+                                                              | 
+return 0;                                                     |
+} -------------------------------------------------------2----|
