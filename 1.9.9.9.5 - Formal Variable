@@ -1,0 +1,31 @@
+Formal parameters are prioritised over global variables and are handled as local variables within a function.
+
+Below example are representing the functioning of formal variables.
+
+Run
+#include<stdio.h>
+ 
+int a = 30; // global variables
+ 
+int main () {
+
+  
+  int a = 10;  //local variables
+  int b = 15;
+  int c = 0;
+
+  printf ("value of a in main() = %d\n",  a);
+  c = product( a, b);
+  printf ("value of c in main() = %d\n",  c);
+
+  return 0;
+}
+
+/* function  */
+int product(int a, int b) {
+
+   printf ("value of a in product() = %d\n",  a);
+   printf ("value of b in product() = %d\n",  b);
+
+   return a * b;
+}
