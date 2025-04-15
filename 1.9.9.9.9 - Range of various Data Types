@@ -1,0 +1,15 @@
+As we have discussed above that there are many different data types in C, and every data type has a pre-defined range of data, under which it works, so we need to be smart while choosing a datatype in our program, below is a table which represents the different data-type, and their data range.
+
+Name Of The Datatype	Range of Datatype
+Double	2.3E-308 to 1.7E+308
+Long Double	3.4E-4932 to 1.1E+4932
+Long	-9223372036854775808 to 9223372036854775807
+Unsigned Long	0 to 18446744073709551615
+Float	.2E-38 to 3.4E+38
+int	-32,768 to 32,767 or -2,147,483,648 to 2,147,483,647
+unsigned int	0 to 65,535 or 0 to 4,294,967,295
+short	-32,768 to 32,767
+unsigned short	0 to 65,535
+char	-128 to 127 or 0 to 255
+signed char	-128 to 127
+unsigned char	0 to 255
