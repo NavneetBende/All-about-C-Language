@@ -1,0 +1,5 @@
+Types	Illustration
+Primitive Data Type	Primitive data type are used as a most fundamental data type in programming languages. Examples of primitive data type are as byte, character, sort, int, boolean, long, float and double.
+User Defined Data Type	A user defined data type is a data type that can be derived from an existing data type.Examples of user derived data types are as array, pointer, structure and union.
+Void Data Type	A void data type is a data type that hasn’t any value or operator and it doesn’t give any response to its caller. A void data type comes from primitive data type.
+Derived Data Type	A derived data type is a data type that derived from built-in or primitive data types.
