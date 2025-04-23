@@ -1,0 +1,10 @@
+Write a program to calculate the size of character type data.
+
+Run
+#include<stdio.h>
+int main()
+{
+	int size_of_char=sizeof(char);
+	printf("The size of char data type = %d\n",size_of_char );
+return 0;
+}
