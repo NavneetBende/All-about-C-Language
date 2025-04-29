@@ -1,0 +1,10 @@
+Write a program to calculate the size of short type data.
+
+Run
+#include<stdio.h>
+int main()
+{
+	int size_of_short=sizeof(short);
+	printf("The size of short data type = %d\n",size_of_short );
+return 0;
+}
