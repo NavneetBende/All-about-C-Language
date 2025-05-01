@@ -1,0 +1,10 @@
+Write a program to calculate the size of double type data.
+
+Run
+#include<stdio.h>
+int main()
+{
+	int size_of_double=sizeof(double);
+	printf("The size of double data type = %d\n",size_of_double );
+return 0;
+}
