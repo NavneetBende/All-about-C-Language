@@ -1,0 +1,163 @@
+Constant in C
+Constant are those Whose value can not be change during program execution. whenever you declare the constant its value remain fixed during execution of the program.If there is an attempt to change its value then there is an error in the progam.
+
+constant in c
+About Constant :
+A value or a keyword that has a definite set value is called a constant.
+Value of Constant is fixed.
+Constant can be any data types.
+Constant is also known as Literals.
+Constant is also the pointer.
+Syntax :
+const data_type variable_name = value(optional);
+Example :
+
+Run
+#include<stdio.h>
+int main()
+{
+   const int SIDE =20;
+   int Volume;
+   Volume=SIDE * SIDE * SIDE;
+   printf("the volume of cube with side : %d is %d cu. units", SIDE,Volume);
+}
+
+Output :
+
+the volume of cube with side :20 is 8000 cu. units
+In C language there are two types of constant:-
+Constant Literals
+Constant variables
+C tutorial desk gif
+Related Pages
+Control Statements in C
+
+Escape sequence in C
+
+Loops in C
+
+enums in c
+
+Arrays in C
+
+Constant Literals
+Constant Literals are values that you use directly in the program. for example,
+y=x+2;
+In this example, 2 is constant literal. It has been directly used in the program. it can not be changed during execution in the program.
+Constant Variables
+you declare the constant variable like variables. The advantage of a constant variable is that if you have to change constant later then you do not need to change it many places, you only change the value of constant variable so that the value is automatically changed everywhere.
+Types of Constant
+There are 4 types of constant in C:-
+Integral Constant
+Floating constant
+Character constant
+String constant
+Constant Keywords
+Let’s discuss what are these in brief.
+Integral constant
+The constant in the integer value is an integral constant.
+Integer constant works as a normal value.
+Integer constant can be either negative or positive.
+Range of integer constant -32768 to 32767.
+Example :
+
+Run
+#include<stdio.h>
+int main()
+{
+    const int num =20;
+    printf("integer constant value is %d", num);
+    return 0;
+}
+
+Output :
+
+integer constant value is 20
+C tutorial desk gif
+Floating constant
+A floating constant is a decimal value is called a floating constant.
+The floating constant works as a normal float variable.
+It contains the decimal point.
+If the value of the floating constant is of integer type, it takes the decimal point.
+Example :
+
+Run
+#include<stdio.h>
+int main()
+{
+    const float num1 = 5;
+    const float num2 = 3.123; 
+    printf("floating constant is %f", num1);
+    printf("floating constant is %f", num2);
+    return 0;
+}
+
+Output :
+
+floating constant is 5
+floating constant is 3.123
+Character Constant
+When character values to it then it is called a character constant.
+Character constant works as a normal variable.
+Character constant takes only a single character.
+The character constant is also used with escape sequences.
+Example :
+
+Run
+#includelt;stdio.h>
+int main()
+{
+   const char ch = 'S';
+   const char escape[] = "Hello\tWorld";
+   printf("character constant is %c", ch);
+   printf("string constant is %s",escape);
+   return 0;
+}
+
+Output :
+
+character constant is S string constant is Hello    World
+String constant
+A string constant is a string array (coming up in later lessons) having fixed string values to it.
+String constant takes a single character and multiple characters.
+The value of the string constant is written within the double quotation mark (“”).
+a string constant is also used with escape sequences.
+Example :
+
+Run
+#include<stdio.h>
+int main()
+{
+   const char st1[] = "S";    //string with single character
+   const char st2[] = "Hey Somya";    //Normal string constant
+   const char st3[] = "Hey\nSomya";      //string constant with escape sequences
+   printf("string constant with single character: %s", st1);
+   printf("normal string constant: %s", st2);
+   printf("string with escape sequences: %s", st3);
+   return 0;
+}
+
+Output :
+
+string constant with single character : S 
+normal string constant : Hey Somya 
+string with escape sequences : Hey 
+Somya
+Constant keyword
+We can define a constant to a program using #define or const int or const float or const char whichever we want and that keyword (identifier) will have a fixed value and can not be changed later (remains a constant).
+Example :
+
+Run
+#include<stdio.h>
+#define LENGTH 10
+void main()
+{
+       const int BREADTH=5;
+       int area;
+       area=LENGTH*BREADTH;
+       printf("%d",area);
+}
+
+Output :
+
+50
