@@ -1,0 +1,33 @@
+Constant Literals
+Constant variables
+C tutorial desk gif
+Related Pages
+Control Statements in C
+
+Escape sequence in C
+
+Loops in C
+
+enums in c
+
+Arrays in C
+
+Constant Literals
+Constant Literals are values that you use directly in the program. for example,
+y=x+2;
+In this example, 2 is constant literal. It has been directly used in the program. it can not be changed during execution in the program.
+Constant Variables
+you declare the constant variable like variables. The advantage of a constant variable is that if you have to change constant later then you do not need to change it many places, you only change the value of constant variable so that the value is automatically changed everywhere.
+Types of Constant
+There are 4 types of constant in C:-
+Integral Constant
+Floating constant
+Character constant
+String constant
+Constant Keywords
+Let’s discuss what are these in brief.
+Integral constant
+The constant in the integer value is an integral constant.
+Integer constant works as a normal value.
+Integer constant can be either negative or positive.
+Range of integer constant -32768 to 32767.
