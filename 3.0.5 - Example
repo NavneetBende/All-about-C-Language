@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+    const int num =20;
+    printf("integer constant value is %d", num);
+    return 0;
+}
