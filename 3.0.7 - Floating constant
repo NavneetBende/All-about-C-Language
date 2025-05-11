@@ -1,0 +1,15 @@
+A floating constant is a decimal value is called a floating constant.
+The floating constant works as a normal float variable.
+It contains the decimal point.
+If the value of the floating constant is of integer type, it takes the decimal point.
+Example :
+
+#include<stdio.h>
+int main()
+{
+    const float num1 = 5;
+    const float num2 = 3.123; 
+    printf("floating constant is %f", num1);
+    printf("floating constant is %f", num2);
+    return 0;
+}
