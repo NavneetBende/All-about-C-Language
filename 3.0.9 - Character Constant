@@ -1,0 +1,16 @@
+When character values to it then it is called a character constant.
+Character constant works as a normal variable.
+Character constant takes only a single character.
+The character constant is also used with escape sequences.
+Example :
+
+Run
+#includelt;stdio.h>
+int main()
+{
+   const char ch = 'S';
+   const char escape[] = "Hello\tWorld";
+   printf("character constant is %c", ch);
+   printf("string constant is %s",escape);
+   return 0;
+}
