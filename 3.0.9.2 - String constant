@@ -1,0 +1,18 @@
+A string constant is a string array (coming up in later lessons) having fixed string values to it.
+String constant takes a single character and multiple characters.
+The value of the string constant is written within the double quotation mark (“”).
+a string constant is also used with escape sequences.
+Example :
+
+Run
+#include<stdio.h>
+int main()
+{
+   const char st1[] = "S";    //string with single character
+   const char st2[] = "Hey Somya";    //Normal string constant
+   const char st3[] = "Hey\nSomya";      //string constant with escape sequences
+   printf("string constant with single character: %s", st1);
+   printf("normal string constant: %s", st2);
+   printf("string with escape sequences: %s", st3);
+   return 0;
+}
