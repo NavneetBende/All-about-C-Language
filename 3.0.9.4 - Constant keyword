@@ -1,0 +1,13 @@
+We can define a constant to a program using #define or const int or const float or const char whichever we want and that keyword (identifier) will have a fixed value and can not be changed later (remains a constant).
+Example :
+
+Run
+#include<stdio.h>
+#define LENGTH 10
+void main()
+{
+       const int BREADTH=5;
+       int area;
+       area=LENGTH*BREADTH;
+       printf("%d",area);
+}
