@@ -1,0 +1,54 @@
+Introduction to TypeCasting
+The method of typecasting in C involves utilizing the casting operator during program design to change one data type to another.
+
+Depending on what we want the programme to perform, type casting causes the compiler to automatically switch from one data type to another.
+
+
+Syntax:
+int a;
+float b;
+b = (float) a;
+Types of TypeCasting in C:
+Implicit typecasting
+Explicit typecasting
+While loop in C
+Implicit Typecasting:
+In C, implicit type casting is used to change any variable’s data type without changing the value it stores.
+Without changing any of the values kept in the data variable, it executes the conversions.
+
+Explicit TypeCasting:
+The user converts types explicitly by using the (type) operator.
+The destination type’s ability to store the source value is checked at runtime prior to the conversion being carried out.
+Example 1:
+Run
+#include<stdio.h>
+int main()
+{
+        int x= 19, y=2;
+        float div;
+        div=x/y;
+        printf("The output : %f\n",div);
+        return 0;
+}
+Output:
+The output : 9.000000.
+Advantages of Typecasting:
+Programmers can change one data type to another by using type casting.
+The program is made lighter by typecasting.
+Example 2:
+Run
+#include<stdio.h>
+int main()
+{
+	int x = 19, y = 2;
+	char c = 'x';
+	double div;
+	div = (double)x / y;
+	c = c + 2;
+	printf("The output of Implicit typecasting : %c\n", c);
+	printf("The output of Explicit typecasting: %f", div);
+	return 0;
+}
+Output:
+The output of Implicit typecasting : z
+The output of Explicit typecasting: 9.500000
