@@ -1,0 +1,21 @@
+Implicit typecasting
+Explicit typecasting
+While loop in C
+Implicit Typecasting:
+In C, implicit type casting is used to change any variable’s data type without changing the value it stores.
+Without changing any of the values kept in the data variable, it executes the conversions.
+
+Explicit TypeCasting:
+The user converts types explicitly by using the (type) operator.
+The destination type’s ability to store the source value is checked at runtime prior to the conversion being carried out.
+Example 1:
+Run
+#include<stdio.h>
+int main()
+{
+        int x= 19, y=2;
+        float div;
+        div=x/y;
+        printf("The output : %f\n",div);
+        return 0;
+}
