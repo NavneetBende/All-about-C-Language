@@ -1,0 +1,165 @@
+Introduction to control statements
+ 
+In C language we have to perform a lot of operations and to do them we have a bunch of control statements that help us to perform specific tasks . In C language you can decide which statements you want to execute in your program and which statements you want to skip. This is called decision making. Most decisions are done on a condition basis. When a particular condition arrives, you can execute the statements. Because these statements work with the conditions, they are also called conditional statements. And because they control execution in the statement program, they are also called control statements.
+
+Control statement in C
+C program is the group of two or more statements, which is sequentially executed. But sometimes programmer may need to repeat any statements many times or change the sequence of program.
+
+Decision Making
+C tutorial desk gif
+If statement
+An if statement is used to make a comparison between two or more set of values, and if that condition or comparison is satisfied then the part of the code written in the if statement will get executed .
+if statement block’s is defined by curly braces{}. When the condition is true then the statement given in this block is executed.
+If the condition is false then skip the entire block.
+if statement in c
+Syntax of if statement
+if(condition)
+{
+      //statements to be executed if condition is true.
+}
+Example:
+Run
+#include
+void main()
+{
+     int a=8;
+     int b=5;        //checks if a is greater than b
+     printf("a is greater than b");
+}
+
+Output :
+a is greater than b
+if else statement
+In some cases when if condition is not satisfied an if else statement will be the next statement that the compiler will now go to and execute if conditions matched.
+
+if else statement is considered to be part of an if statement. But else block is added in it. The statement given in Else block is executed when the condition of if is false.
+
+C tutorial desk gif
+Related Pages
+Tokens in C
+
+Variables in C 
+
+Scope Rules in C
+
+Size of data types in C
+
+Constants in C
+
+ 
+
+Syntax of if else statement
+if(condition)
+{     
+      //statement to be executed if condition is true
+}
+else
+{  
+    //statement to be executed if condition is false.
+Example :
+Run
+#include<stdio.h>
+void main()
+{
+   int a=8;
+   int b=13;
+   if(a>b)   //checks if a is greater than b
+   {
+       printf("a is greater than b");
+   }
+   else   //checks if a is less than b
+   {
+      printf("a is less than b");
+   }
+}
+Output :
+a is less than b
+else if statement
+if you want to put another condition in the middle of if and else, then you can do this by defining else if block.
+
+Syntax of else-if statement
+if(condition)
+{     
+      //statement to be executed if condition is true
+}
+else if(condition)
+{  
+    //statement to be executed if else if condition is true
+}
+else(condition)
+{
+    // statement to be executed if, neither if nor else if is true.
+}
+Example:
+Run
+#include<stdio.h> 
+void main()
+{
+   int a=5;
+   int b=5;
+   if(a>b)      //checks if a is greater than b
+   {
+       printf("a is greater than b");
+   }
+   else if(a<b)   //checks if a is less than b
+   {
+       printf("a is less than b");
+   }
+   else
+   {
+       printf("a is equal to b");
+   }
+}
+
+Output :
+a is equal to b
+There are a lot of other comparisons we can do in an if statement like
+
+if(a==b)   //if a is equal to b
+if(a!=b)  //if a is not equal to b
+if(a==b && a>5)   //if a is equal to b and a is greater than 5
+if(a==b || a>5)  //if a is equal to b or a is greater than 5
+C tutorial desk gif
+Switch cases
+In a switch case we provide (or take input from the user) a key and give it to the switch and the switch compares that value with its cases and if it is equal it will execute that case and if no cases match then it runs a default case.
+
+Switch case
+Syntax of switch case
+switch(value)
+{    
+    case (condition):
+       //statement to be executed if condition is true
+       break;
+   case (condition):
+      //statement to be executed if condition is true
+      break;
+   default:
+     //statement to be executed if none of the case is true
+}
+Example
+Run
+#include<stdio.h>
+int main()
+{
+   int a=3;
+   switch(a) //value of 3 is given to switch
+   {
+       case 1 : //checks if a is equal to 1
+         printf("One");
+         break; //jumps out of all switch cases
+       case 2 : //checks if a is equal to 2
+          printf("Two");
+          break; //jumps out of all switch cases
+       default :
+          printf("No values matched");
+   }
+}
+
+Output :
+No values matched
+Prime Course Trailer
+
+Related Banners
+Get PrepInsta Prime & get Access to all 200+ courses offered by PrepInsta in One Subscription
+
+Get Prime
