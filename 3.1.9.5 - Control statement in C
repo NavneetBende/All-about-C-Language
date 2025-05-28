@@ -1,0 +1,8 @@
+C program is the group of two or more statements, which is sequentially executed. But sometimes programmer may need to repeat any statements many times or change the sequence of program.
+
+Decision Making
+C tutorial desk gif
+If statement
+An if statement is used to make a comparison between two or more set of values, and if that condition or comparison is satisfied then the part of the code written in the if statement will get executed .
+if statement block’s is defined by curly braces{}. When the condition is true then the statement given in this block is executed.
+If the condition is false then skip the entire block.
