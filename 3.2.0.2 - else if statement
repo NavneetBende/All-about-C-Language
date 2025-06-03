@@ -1,0 +1,15 @@
+if you want to put another condition in the middle of if and else, then you can do this by defining else if block.
+
+Syntax of else-if statement
+if(condition)
+{     
+      //statement to be executed if condition is true
+}
+else if(condition)
+{  
+    //statement to be executed if else if condition is true
+}
+else(condition)
+{
+    // statement to be executed if, neither if nor else if is true.
+}
