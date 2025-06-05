@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+   int a=3;
+   switch(a) //value of 3 is given to switch
+   {
+       case 1 : //checks if a is equal to 1
+         printf("One");
+         break; //jumps out of all switch cases
+       case 2 : //checks if a is equal to 2
+          printf("Two");
+          break; //jumps out of all switch cases
+       default :
+          printf("No values matched");
+   }
+}
