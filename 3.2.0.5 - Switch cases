@@ -1,0 +1,15 @@
+In a switch case we provide (or take input from the user) a key and give it to the switch and the switch compares that value with its cases and if it is equal it will execute that case and if no cases match then it runs a default case.
+
+Switch case
+Syntax of switch case
+switch(value)
+{    
+    case (condition):
+       //statement to be executed if condition is true
+       break;
+   case (condition):
+      //statement to be executed if condition is true
+      break;
+   default:
+     //statement to be executed if none of the case is true
+}
