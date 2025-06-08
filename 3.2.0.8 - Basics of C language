@@ -1,0 +1,42 @@
+Basics of C programming
+C is a general purpose high-level language most popular amongst coders, it is the most compatible, easy to learn and effective programming language. It is a successor of B language that came out way back in the 70s and has been the most popular programming language ever since.
+
+Sorting element in array by frequency in C
+C programming Features:-
+C is a Middle level language. 
+It is case sensitive.
+It is easy to extend.
+Highly portable.
+It is fast and efficient.
+It is more widely used language in operating systems and embedded system.
+It is the simple language.
+Features of C language
+C tutorial desk gif
+Related Pages
+Features of C Programming
+
+History of C Programming
+
+Low Level Programming
+
+Why C is Middle Level Language
+
+Introduction to C Programming
+
+Why C is a middle level language?
+To understand this let us first understand what higher and lower level languages are with example.
+
+A higher level language would be the language that we humans speaks like simple English and lower level language is that a computer can understand like binary (1s and 0s) called machine language, while C is a middle level language that is between higher and lower level and is also called assembly language. It uses simple words from English like for, if, while, include and also symbols like +, ++, <, %, & to carry out tasks and to interact with our computer.
+
+We Used C Language in Following Areas:-
+We can create an Operating System with the help of the C language. Mostly all operating systems are developed in C language like Unix, Windows operating system.
+We can develop assemblers in C language.
+We can develop compilers in C language.
+Network Drivers are also created using C language.
+Text Editors are developed using the C language like Notepad++,gedit e.t.c.
+Database Management System are developed using the C language like oracle database.
+Limitations of C language:-
+No exception handling is done.
+We can not reuse the code in C language.
+In C language, no run time type checking is done.
+C language doesn’t support Object Oriented programming.
