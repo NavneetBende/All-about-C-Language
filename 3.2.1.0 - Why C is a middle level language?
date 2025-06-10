@@ -1,0 +1,3 @@
+To understand this let us first understand what higher and lower level languages are with example.
+
+A higher level language would be the language that we humans speaks like simple English and lower level language is that a computer can understand like binary (1s and 0s) called machine language, while C is a middle level language that is between higher and lower level and is also called assembly language. It uses simple words from English like for, if, while, include and also symbols like +, ++, <, %, & to carry out tasks and to interact with our computer.
