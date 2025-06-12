@@ -1,0 +1,71 @@
+C language features
+The reason for the popularity of the C language is its features, these good features make this language unique, mother language and Powerful language.
+
+C is a procedural programming language. It was mainly developed as a System programming language, for writes the operating system program. Its main features are:- presence of low level access to memory,  use of simple set of keywords, this features make suitable of C language, it is portable.
+
+c-Basic
+Features of C Language
+There are some features of the C programming language:-
+
+Small
+Speed
+Modularity
+Case sensitive language
+Middle level language
+Structured
+Memory Management
+Rich library
+Pointer & Recursion
+Extensible
+Fast
+C tutorial desk gif
+Features of C language
+Related Pages
+Basics of C Programming
+
+History of C Programming
+
+Low Level Programming
+
+Why C is Middle Level Language
+
+Introduction to C Programming
+
+Small:-
+C provide 32 reserved keywords, these keywords provide control to programmer on language. By understanding  the use of keywords we can do programming in C language.
+C language can easily learn in less time because, C language is small and simple language.
+This language provide structure approach.
+In C language there are  various data types and library function provided to solve the problems.
+Speed:-
+The main feature of the C language is Speed because after assembly language C language is considered to be the fastest.
+The compilation and execution time of the C language is very fast.
+C language is also known as Low level language.
+This language is very close to the hardware. 
+Modularity:-
+C is a Modular programming language. In this feature small modules are made to solve any problem and these small module are known as function. By dividing any program in modules, it becomes easy to manage or debug the program.
+Case Sensitive:-
+C is a case sensitive language.
+In case sensitive programming all letters are different weather they are small and capital variables, which makes it easy for the programmer to create variables in a program.
+Middle level language:-
+This is the main feature in features of C.C language is a middle level language because C language can make high level and low level software.
+C language is also used in programming of low level language, in which  system applications are created.it also supports the features of high level language, that’s why C language is called a middle level language.
+Structured:-
+C is  a structure programming language. 
+In this feature small modules are made to solve any problem and these small module are known as function. By dividing any program in modules, it becomes easy to manage or debug the program.
+Memory Management:-
+Memory Management is a good feature in features of C.
+C language supports the feature of dynamic memory allocation.
+We can allocate time memory with the help of free() function.
+Rich Library:-
+This is the most important feature in features of C.
+C language provides various in-built functions, with the help of which we can speed up any program.
+Pointer and Recursion:-
+C language provides Pointer and Recursion feature.we can  directly handle the memory with the help of Pointer.we use pointer for Array,Function,Structures.
+In C programming, we can call function inside the function.C language provides code re-usability to us.By which we can use the code of any function again.
+Extensible:-
+In the C programming language, you can add your own user defined library and use it. Because the C language is an extensible programming language and we can add new features easily.
+Fast:-
+After assembly language C language is considered to be the fastest.
+This is also sometimes called low level language.
+C language is close to the hardware.
+Processing of applications created in the C language is fast.
