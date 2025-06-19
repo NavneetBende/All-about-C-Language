@@ -1,0 +1,3 @@
+Memory Management is a good feature in features of C.
+C language supports the feature of dynamic memory allocation.
+We can allocate time memory with the help of free() function.
