@@ -1,0 +1,2 @@
+C language provides Pointer and Recursion feature.we can  directly handle the memory with the help of Pointer.we use pointer for Array,Function,Structures.
+In C programming, we can call function inside the function.C language provides code re-usability to us.By which we can use the code of any function again.
