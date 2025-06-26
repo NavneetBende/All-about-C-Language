@@ -1,0 +1,10 @@
+All preprocessing directives begin with a hash symbol(#).
+
+Some of the commonly used preprocessor directives are listed below:
+
+Directive	Description
+#define	This directive substitutes a preprocessor macro.
+#include	This directive inserts a particular header from another file.
+#undef	This directive undefines a preprocessor macro.
+#ifdef	This directive returns true if this macro is defined.
+#ifndef	This directive returns true if this macro is not defined.
