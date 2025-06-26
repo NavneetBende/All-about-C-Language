@@ -1,0 +1,11 @@
+A C Preprocessor performs processing of source code or high level language(HLL).
+The first step in the language processing system is preprocessing. This language processing system converts the high level language into a language that is easily understood by the machine i.e. machine level language.
+C Preprocessor working
+The intermediate steps involved between writing a C program and it’s execution are shown in the figure above.
+
+A preprocessor is primarily used for performing three tasks on high level language(HLL) code given below:
+
+Expanding macros: The preprocessor replaces occurrences of macro names with their corresponding definitions.
+Including files: The preprocessor inserts the contents of specified files into the source code at the point where the #include directive appears.
+Conditional compilation: The preprocessor can include or exclude parts of the source code based on specified conditions, using the #if, #ifdef, and #ifndef directives.
+Replacing constants: The preprocessor replaces occurrences of constants with their corresponding values, using the #define directive.
