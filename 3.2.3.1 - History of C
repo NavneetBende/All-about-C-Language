@@ -1,0 +1,42 @@
+History of C Language
+To overcome the problems of languages such as B and BCPL, Dennis Ritchie from The United States of America developed C language in 1972. This page is all about history of C language.
+
+ 
+
+History of C
+Invention of C Language
+C was developed by Dennis Ritchie, he was born on 9th September, 1941. Ritchie invented two great inventions, C programming language and Unix operating system.he also co-authored a book “The C Programming Language”.
+
+C is used for creating system application.Implementation of system software was designed by C language.It is a case sensitive programming language.
+
+Dennis Ritchie further was referred as “The Father of Modern Programming Languages”.
+
+History of C
+C tutorial desk gif
+Related Pages
+Features of C Programming
+
+Basics of C Programming
+
+Low Level Programming
+
+Why C is Middle Level Language
+
+Introduction to C Programming
+
+Note:
+C is a simple programming language in the history of computing programming language. It is structure oriented. Nowadays, many programming languages have arrived with many features like C++, python, Java and more but C is a base of any language. 
+
+Initially C was developed to be used in UNIX operating system, but nowadays it’s compatibility has grown a lot ranging from windows, Mac, Linux, Ubuntu and others.Many of the important working principle of C comes from BCPL, developed by Martin Richards, although B,BCLP are typeless languages C provides a number of different data types.
+
+C Programming history:-
+In 1960, ALGOL was developed by the  international group.
+In 1966, Martin Richards developed BCPL (Basic Combined Programming Language before developing C.
+Later, Ken Thomson further developed BCPL by developing the first letter of BCPL i.e. he developed the B language.
+Ken Thomson developed BASIC type of UNIX Operating System, while the B language was in motion.
+After all this, by further developing the B language, Dennis Ritchie developed the C language in the Bell laboratory.  
+After developing the C language, Dennis Ritchie and Ken Thompson together developed the UNIX Operating System.
+In 1978, Kerni Ghan and Ritchie both did further improvement in C language and they brought the C programming language in front of the whole world.
+In 1989, ANSI C developed by the ANSI Committee.
+In 1999, The new version of C was developed, In which have new features like Data Types- char,float,int,double was used.
+Today’s  we are using the new version of C is C11, which is developed by Standard Committee.
