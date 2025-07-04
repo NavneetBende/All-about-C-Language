@@ -1,0 +1,47 @@
+A low-level language is the language the machine understands. The machine language. Every machine or computer comes with a specific assembly.  Low level languages are used to write programs that relate to the specific architecture and hardware of a particular type of computer.
+
+Low Level Programming
+Low Level Programming
+Software Engineering SDLC
+Related Pages
+Features of C Programming
+
+Basics of C Programming
+
+History of C Programming
+
+Why C is Middle Level Language
+
+Introduction to C Programming
+
+Note:
+Programs and applications written in low-level language are directly executable on the computing hardware without any interpretation or translation..Low-level languages are appropriate for writing operating systems or firmware for micro-controllers. They can do just about anything with a little bit of work.
+
+Two common types of low-level programming:-
+
+Assembly language
+Machine language.
+Ex:- “Machine language” and “Assembly language” are the examples of Low level languages.
+
+Machine language:-
+Machine language consists of sequence of instructions written in the form of binary numbers to which computer responds directly. The machine only understand the binaries digit 01, this is what we call the machine language.  All programs need to be translated into machine code before a computer can understand and execute them.
+
+ ML(Machine language ) is a low-level language interpreted and converted from high-level source code and understood only by the machine. Machine code is transported to the system processor when a specific task, application or program executes even the smallest process.
+
+Ex:-  computer can understand only o ,1 language we convert into 0,1 form through  high level language.
+
+  24 —–> 11000
+  14 ——> 01110
+Assembly Language:-
+Assembly language is simply a different way to write down machine code. It is used instead of machine code in order to make the programmer’s job easier – instead of reading binary values, the programmer deals with easier to read shorthand that is equivalent to the binary. A low level programming language used to relate to the specific architecture and hardware of a particular type of computer.
+
+Assembly language has little semantics or formal specification, being only a mapping of human-readable symbols, including symbolic addresses, to opcodes, addresses, numeric constants, strings and so on. 
+
+Ex:- MOV TH1 , #RELOAD —> Move  the reload  value of TH1
+
+       SUB AX,BX —> Subtraction of AX,BX
+
+       SJMP WAIT —> Wait till interrupt occurs
+
+Working on low level Programs :-
+As C is considered a low-level language, you can often do much of this type of programming in C. But not all of it. Sometimes one must resort to assembly language, which usually has a one to one correspondence (unless one is using macros) to the machine instructions of the machine. Mathematically a number system in any base works equally well. Whether or not it would gain traction among any particular group of people is a different matter.
