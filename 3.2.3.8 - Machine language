@@ -1,0 +1,8 @@
+Machine language consists of sequence of instructions written in the form of binary numbers to which computer responds directly. The machine only understand the binaries digit 01, this is what we call the machine language.  All programs need to be translated into machine code before a computer can understand and execute them.
+
+ ML(Machine language ) is a low-level language interpreted and converted from high-level source code and understood only by the machine. Machine code is transported to the system processor when a specific task, application or program executes even the smallest process.
+
+Ex:-  computer can understand only o ,1 language we convert into 0,1 form through  high level language.
+
+  24 —–> 11000
+  14 ——> 01110
