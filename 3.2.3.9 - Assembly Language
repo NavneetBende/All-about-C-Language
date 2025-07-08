@@ -1,0 +1,9 @@
+Assembly language is simply a different way to write down machine code. It is used instead of machine code in order to make the programmer’s job easier – instead of reading binary values, the programmer deals with easier to read shorthand that is equivalent to the binary. A low level programming language used to relate to the specific architecture and hardware of a particular type of computer.
+
+Assembly language has little semantics or formal specification, being only a mapping of human-readable symbols, including symbolic addresses, to opcodes, addresses, numeric constants, strings and so on. 
+
+Ex:- MOV TH1 , #RELOAD —> Move  the reload  value of TH1
+
+       SUB AX,BX —> Subtraction of AX,BX
+
+       SJMP WAIT —> Wait till interrupt occurs
