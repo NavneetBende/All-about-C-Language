@@ -1,0 +1,64 @@
+Why is C a Middle Level Language?
+C is a middle-level language because it binds the gap between machine level language and high-level language.It can be used for both, system programming (like as operating system) As well as application programming (like as spreadsheet, Transaction Management Systems).
+
+c
+Why C is a middle-level language?
+It binds the gap between machine level language and high-level language.
+It can be used for both, system programming (like as operating system)
+As well as application programming (like as spreadsheet).
+Middle-level language are more related to a machine as well as human language. So that’s why it is called “Middle-level language”.
+
+C language merges the best element of high-level language with the rule and flexibility of assembly language. C allows the manipulation of bits and addresses and bytes.
+
+Trvia
+50% of the code of Windows operating system is written in C
+Note
+C is actually a high level language but sometimes categorized as a low level language due to some unique properties mentioned above/below
+High level – Python, Visual Basic, Delphi, Perl, PHP, ECMAScript, Ruby, C#, Java
+Middle level – Java, C++, C, FORTH, Macro-assemble
+Low level – Assembly Language, Machine Code
+Characteristics:-
+It also supports high-level language features.
+It is static typing.
+Garbage collection.
+Virtual machines.
+Middle-level languages are closely related to machine language as well as human language.
+It is user friendly as compared to the previous language.
+Efficiency is increased.
+It is reusable.
+While loop in C
+Related Pages
+Features of C Progamming
+
+History of C Progamming
+
+Low Level Programming
+
+Introduction to C programming
+
+Structure of a C Program
+
+ We have languages that are classified into three categories:-
+
+High level language:- 
+A higher-level language(HLL)  would be the language that we humans speak like simple English. HLL is closer to humans than it is to machines.
+
+C is only a programming language that can be used in Device drivers, to create programs or software to access Hardware levels.
+
+Python, Visual Basic, Perl, PHP examples of a high-level language.
+
+Middle-Level Languages
+These languages can be used to perform system-level coding i.e. operating system and application coding.
+
+Example – C, C++, Java
+
+Trivia
+Most of the hardware you see in home like - Air coditioner, Microwave, Washing Machine is actually coded in Java
+Trivia
+90% of the PC games are coded in C, C++. Infact unity unreal engine is coded in C, C++, C#
+Low-Level Languages
+A low-level programming language is a programming language that provides little or no abstraction from a computer’s instruction set architecture—commands or functions in the language map that is structurally similar to the processor’s instructions.
+
+Basically, the whole code is performing actions directly on computers hardware, memory, CPU etc
+
+Example : Machine cod, assembly language
