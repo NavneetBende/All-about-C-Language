@@ -1,0 +1,7 @@
+It binds the gap between machine level language and high-level language.
+It can be used for both, system programming (like as operating system)
+As well as application programming (like as spreadsheet).
+Middle-level language are more related to a machine as well as human language. So that’s why it is called “Middle-level language”.
+
+C language merges the best element of high-level language with the rule and flexibility of assembly language. C allows the manipulation of bits and addresses and bytes.
+
