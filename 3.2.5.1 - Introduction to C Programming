@@ -1,0 +1,48 @@
+Introduction of C
+C is procedural and high level structured oriented programming language.C is used for general purpose programming.it was developed by Dennis Ritchie in between 1969 and 1973.It is simple and flexible.
+
+ 
+
+Introduction to C Programming
+Note:
+C was invented to write everything from operating system like Oracle database,Git and more.
+We can say that, C is a base for the programming .if you know about “C” language ,you can easily get the knowledge of other programming languages uses the concept of C.
+ Some facts about “C”
+C was developed by Dennis Ritchie in between 1969 and 1973.
+American National Standards Institute (ANSI) had organized the C language in 1988.
+C was invented to write from operating system.
+Linux,Oracle database,PHP are written in C.
+C tutorial desk gif
+Related Pages
+Features of C Programming
+
+Basics of C Programming
+
+History of C Programming
+
+Why C is Middle Level Language
+
+Structure of C Programming
+
+Application of  C language
+It is used in writing embedded software.
+It is used for creating system application,
+Database system
+Operating system
+Compilers and assemblers
+Interpreters
+The core parts of UNIX,WINDOWS are written using the C language.
+It is used to create graphical application.
+It is used in network drivers.
+Used in text editors.
+Advantages
+ It is case sensitive.
+It is highly portable language.
+Programs written in c language efficient and fast.
+It is easy to understand.  
+C language is procedure oriented language.
+Disadvantages
+It does not have any concept of destructor and constructor.
+C++ is developed because C does not have concept of oops.
+Lack of exception handling.
+It does not have concept of namespace.
