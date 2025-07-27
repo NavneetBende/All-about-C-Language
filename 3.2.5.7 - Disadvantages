@@ -1,0 +1,4 @@
+It does not have any concept of destructor and constructor.
+C++ is developed because C does not have concept of oops.
+Lack of exception handling.
+It does not have concept of namespace.
