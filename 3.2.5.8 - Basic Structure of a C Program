@@ -1,0 +1,47 @@
+Structure of C program
+It is necessary to be aware of proper structure flow of programming language you are writing code in. Not following proper structure of program may lead to error. Structure of a language gives a basic idea of the order of sections in a program. Here we will discuss the different section of structure.
+
+structure of c
+Basic Structure of C Program
+A C Program have the following entities that define structure of the program –
+
+Preprocessor commands
+ Functions
+Variables
+Statements and Expressions
+Comments
+C tutorial desk gif
+Related Pages
+Low Level Programming
+
+Why C is Middle Level Language.
+
+Introduction to C programming
+
+Input-Output Functions
+
+Difference between Compiler and Interpreter.
+
+Sample code
+Let’s take an example for exploring this section. Following is the code in C language to calculate the area of circle whose radius is 5.
+
+Run
+#include<stdio.h>
+#define PI 3.1416
+float area (float r);
+int main(void)
+{
+//Example of variables
+float r = 5;
+printf("Area: %.2f",area(r)); // This statement will print two digit after the point
+return 0;
+}
+
+//Example of function
+float area(float r)
+{
+//example of statements & Expression
+return PI * r * r;
+}
+Output
+Area: 78.54
