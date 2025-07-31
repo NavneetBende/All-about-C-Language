@@ -1,0 +1,20 @@
+Let’s take an example for exploring this section. Following is the code in C language to calculate the area of circle whose radius is 5.
+
+Run
+#include<stdio.h>
+#define PI 3.1416
+float area (float r);
+int main(void)
+{
+//Example of variables
+float r = 5;
+printf("Area: %.2f",area(r)); // This statement will print two digit after the point
+return 0;
+}
+
+//Example of function
+float area(float r)
+{
+//example of statements & Expression
+return PI * r * r;
+}
