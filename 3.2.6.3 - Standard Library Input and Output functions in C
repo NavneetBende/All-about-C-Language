@@ -1,0 +1,100 @@
+Standard input and output functions
+C programming language libraries that allow input and output in a program. the  Stdio.h or Standard input-output library in C that has a method for input and output.
+
+Standard Input output
+Input:  
+when we talking about the input, so it means to feed some data into a program. an input can be given in the form the command line. C programming has a set of built-in functions to read the given input and feed it to the program as per requirement. scanf() is a function which is used to take input.
+
+Output:
+When we talking about the output, so it means to display something in the screen. The data we want to print in the screen that is print as it is. C programming has a set of built-in function to output the data on the computer screen. printf() is a function which is used for output.
+
+Formate Specifier for I/O:
+Here’s the list of commonly used data type and their formate specifier. which is used in printf() and scanf() function for take input and print the value of any variable of data type.
+  Data type	Formate  Specifier
+            int	              %d
+            char	               %c
+            double	               %lf
+            float	               %f
+            short int	               %hd
+            unsigned int	               %u
+            long int	               %li
+            long long int	               %lli
+            unsigned long int	               %lu
+            unsigned long long int	               %llu
+            signed char	                %c
+            unsigned char	                 %c
+            long double	                 %Lf
+C tutorial desk gif
+Related Pages
+Why C is Middle Level Language.
+
+Introduction to C programming
+
+Structure of a C program
+
+Difference between Compiler and Interpreter.
+
+Assembler v/s Compiler v/s Interpreter v/s Linker v/s Loader
+
+C Output
+As we see the printf() is an output function in C. this function sends formatted output to the screen.
+
+To use the printf() in our program, we need to include stdio.h header file using #include statement. 
+
+the return 0; statement inside main() function is the Exit status of the program.
+
+Example:
+Run
+#include<stdio.h>
+int main()
+{
+    printf("learn C programming from Prepinsta");
+    return 0;
+}
+Output
+learn C programming from Prepinsta.
+C input:
+As we see the scanf() is an input function in C this function used to take input from the user. the scanf() function reads formatted input from the standard input such as keyboards.
+
+Example:
+Here we will use commonly used, formate specifier in c input.
+
+Run
+#include<stdio.h>
+int main ()
+{
+int testInteger;
+float testFloat;
+double testDouble;
+char testChar = '9';
+printf (b enter a character value b);
+scanf (b % c b, &testChar);
+printf (b \ nyour entered char value = %c b, testChar);
+printf (b \ nenter an Integer value b);
+scanf (b % d b, &testInteger);
+printf (b \ nyour entered integer value = %d b, testInteger);
+printf (b \ nenter a float value b);
+scanf (b % f b, &testFloat);
+printf (b \ nyour entered float value = %f b, testFloat);
+printf (b \ nenter a double value b);
+scanf (b % lf b, &testDouble);
+printf (b \ nyour entered ndouble value = %lf b, testDouble);
+return 0;
+}
+Output
+enter a character value g
+
+your entered char value = g
+
+enter an Integer value 45
+
+your entered integer value = 45 enter a float value 4.4
+
+your entered float value = 4.400000
+
+enter a double value 45.89
+
+your entered ndouble value = 45.890000
+Here we have used %d,%f,%lf and %c  formate inside the scanf() function to take int,float, double and character input respectively from user. when user input integer value, it stored in the testInterger variable.
+
+Notice, that we have used &testInteger inside scanf(). It is because &testInteger gets the address of testInteger, and the value entered by the user is stored in that address.
