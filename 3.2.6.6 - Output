@@ -1,0 +1,1 @@
+When we talking about the output, so it means to display something in the screen. The data we want to print in the screen that is print as it is. C programming has a set of built-in function to output the data on the computer screen. printf() is a function which is used for output.
