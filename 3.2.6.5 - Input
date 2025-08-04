@@ -1,0 +1,1 @@
+when we talking about the input, so it means to feed some data into a program. an input can be given in the form the command line. C programming has a set of built-in functions to read the given input and feed it to the program as per requirement. scanf() is a function which is used to take input.
