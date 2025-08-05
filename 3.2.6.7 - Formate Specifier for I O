@@ -1,0 +1,15 @@
+Here’s the list of commonly used data type and their formate specifier. which is used in printf() and scanf() function for take input and print the value of any variable of data type.
+  Data type	Formate  Specifier
+            int	              %d
+            char	               %c
+            double	               %lf
+            float	               %f
+            short int	               %hd
+            unsigned int	               %u
+            long int	               %li
+            long long int	               %lli
+            unsigned long int	               %lu
+            unsigned long long int	               %llu
+            signed char	                %c
+            unsigned char	                 %c
+            long double	                 %Lf
