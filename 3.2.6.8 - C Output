@@ -1,0 +1,5 @@
+As we see the printf() is an output function in C. this function sends formatted output to the screen.
+
+To use the printf() in our program, we need to include stdio.h header file using #include statement. 
+
+the return 0; statement inside main() function is the Exit status of the program.
