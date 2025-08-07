@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+    printf("learn C programming from Prepinsta");
+    return 0;
+}
