@@ -1,0 +1,24 @@
+Here we will use commonly used, formate specifier in c input.
+
+
+#include<stdio.h>
+int main ()
+{
+int testInteger;
+float testFloat;
+double testDouble;
+char testChar = '9';
+printf (b enter a character value b);
+scanf (b % c b, &testChar);
+printf (b \ nyour entered char value = %c b, testChar);
+printf (b \ nenter an Integer value b);
+scanf (b % d b, &testInteger);
+printf (b \ nyour entered integer value = %d b, testInteger);
+printf (b \ nenter a float value b);
+scanf (b % f b, &testFloat);
+printf (b \ nyour entered float value = %f b, testFloat);
+printf (b \ nenter a double value b);
+scanf (b % lf b, &testDouble);
+printf (b \ nyour entered ndouble value = %lf b, testDouble);
+return 0;
+}
