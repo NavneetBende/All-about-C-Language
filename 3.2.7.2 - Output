@@ -11,3 +11,8 @@ your entered float value = 4.400000
 enter a double value 45.89
 
 your entered ndouble value = 45.890000
+
+
+Here we have used %d,%f,%lf and %c  formate inside the scanf() function to take int,float, double and character input respectively from user. when user input integer value, it stored in the testInterger variable.
+
+Notice, that we have used &testInteger inside scanf(). It is because &testInteger gets the address of testInteger, and the value entered by the user is stored in that address.
