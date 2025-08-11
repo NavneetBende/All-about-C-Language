@@ -1,0 +1,42 @@
+Difference between interpreter and compiler
+While humans can only read/write in complex languages and hence the program written by a programmer is also in higher level language which also can only be read by a human, the computer deals in a more simple binary language which only includes 1’s and 0’s.
+
+compiler
+Compiler:-
+Goes through the entire program and translates it as a whole in a single run.
+It  takes more time to analyse the source code but the overall execution time is faster.
+Generates intermediate object code which  requires linking, hence requires more memory.
+It generates the error message only after scanning the whole program. Therefore debugging is relatively hard.
+It generates the intermediate code.
+Programming language like C, C++ use compilers.
+Compiler and Interpreter both are language translators and both converts the high level language into machine code but there are some differences in between compiler and interpreter.
+Interpreter:-
+Translates one line of a program at a time.
+Time taken to analyse the source code is less but the overall execution time is slower.
+No intermediate object code is generated, hence are memory efficient.
+Continues translating the program until the first error is met, in which case it stops. which is why debugging is easy.
+It does not generate the intermediate code.
+Programming language like Python, Ruby use interpreters.
+C tutorial desk gif
+Related Pages
+Why C is Middle Level Language.
+
+Introduction to C programming
+
+Structure of a C program
+
+Input-Output Functions
+
+Assembler v/s Compiler v/s Interpreter v/s Linker v/s Loader
+
+Difference between interpreter & compiler
+In order for the computer to understand a code we are supposed to have programs that can break down the higher level language (source codes) in the binary language, this is done by compiler and interpreter.But they both have a number of differences in their operation.Let’s see what these differences are:-
+
+Interpreter	Compiler
+Translates one line of a program at a time.	Compiler translates the entire program in a single run.
+Interpreter tells the error of each line and only after the error is resolved, the interpreter moves to another line.	Compiler tell all the errors after the compilation of entire program.
+It takes more time for translation.	It takes less time for translation.
+Interpreter does not generate the intermediate object code or machine code.	Compiler generates intermediate code,that code is known as object code or machine code.
+Programming language like Python, Ruby use interpreters.	Programming language like C, C++ use compilers.
+There are no chances of error in a program.	There are chances of error in a program.
+Programming language like Python, Ruby use interpreters.	Programming language like C, C++ use compilers.
