@@ -1,0 +1,7 @@
+Goes through the entire program and translates it as a whole in a single run.
+It  takes more time to analyse the source code but the overall execution time is faster.
+Generates intermediate object code which  requires linking, hence requires more memory.
+It generates the error message only after scanning the whole program. Therefore debugging is relatively hard.
+It generates the intermediate code.
+Programming language like C, C++ use compilers.
+Compiler and Interpreter both are language translators and both converts the high level language into machine code but there are some differences in between compiler and interpreter.
