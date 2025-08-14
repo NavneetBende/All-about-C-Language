@@ -1,0 +1,6 @@
+Translates one line of a program at a time.
+Time taken to analyse the source code is less but the overall execution time is slower.
+No intermediate object code is generated, hence are memory efficient.
+Continues translating the program until the first error is met, in which case it stops. which is why debugging is easy.
+It does not generate the intermediate code.
+Programming language like Python, Ruby use interpreters.
