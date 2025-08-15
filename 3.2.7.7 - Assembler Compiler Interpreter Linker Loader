@@ -1,0 +1,70 @@
+Basics of C
+Translators like compilers, interpreters and assemblers are needed to translate programs written in high-level languages into the machine code that a computer understands. A computer program is a set of instructions for the computer to perform a certain task. Most programs are written in high level languages or assembly language.
+
+Assembler compiler interpreter
+Assembler
+In computer science, an assembler is a program that converts the assembly language into machine code.
+
+The output of an assembler is called an object file, which contains a combination of machine instructions as well as the data required to place these instructions in memory
+
+Assembler
+Assembly Language
+It is a low-level programming language in which there is a very strong correspondence between the instructions in the language and the computer's hardware's machine code instructions
+Machine Code
+These are machine language instructions, which are used to control a computer's central processing unit (CPU). Each instruction causes the CPU to perform a very specific task, such as a load, a store, a jump, or an arithmetic logic unit (ALU) operation on one or more units of data in the CPU's registers or memory
+C tutorial desk gif
+Related Pages
+Why C is Middle Level Language.
+
+Introduction to C programming
+
+Structure of a C program
+
+Input-Output Functions
+
+Difference between Compiler and Interpreter.
+
+Compiler
+A Compiler is a program that  translates source code from a high-level programming language to a lower level language computer understandable language(e.g. assembly language, object code, or machine code) to create an executable program
+It is more intelligent than interpreter because it goes through the entire code at once
+It can tell the possible errors and limits and ranges.
+But this makes it’s operating time a little slower
+It is platform-dependent
+It help to detect error and get displayed after reading the entire code by compiler.
+In other words we can say that, “Compilers turns the high level language to binary language or machine code at only time once”, it is known as Compiler.
+Assembler Compiler Interpreter Linker Loader
+Interpreter
+An interpreter is also a program like a compiler that converts assembly language into Machine Code
+But an interpreter goes through one line of code at a time and executes it and then goes on to the next line of the code and then the next and keeps going on until there is an error in the line or the code has completed.
+It is 5 to 25 times faster than a compiler but it stops at the line where error occurs and then again if the next line has an error too.
+Where as a compiler gives all the errors in the code at once.
+Also, a compiler saves the machine codes for future use permanently but an interpreter doesn’t, but an interpreter occupies less memory.
+Interpreter
+Interpreter is differ from compiler such as,
+Interpreter is faster than compiler.
+It contains less memory.
+Interpreter executes the instructions in to source programming language.
+There are several types of interpreter:
+Syntax-directed interpreter
+Threaded interpreter
+Bytecode interpreter
+Linker
+For a code to run we need to include a header file or a file saved from the library which are pre-defined if they are not included in the beginning of the program then after execution the compiler will generate errors, and the code will not work.
+
+Linker is a program that holds one or more object files which is created by compiler, combines them into one executable file.Linking is implemented  at both time,load time and compile time. Compile time is when high level language is turns to machine code and load time is when the code is loaded into the memory by loader.
+
+Linker is of two types:
+
+1.Dynamic Linker:-          
+It is implemented during run time.
+It requires less memory.
+In dynamic linking there are many chances of error and failure chances.
+Linking stored the program in virtual memory to save RAM,So we have need to shared library
+2.Static Linker:-
+It is implemented during compilation of source program.
+It requires more memory.
+ Linking is implemented before execution in static linking.
+It is faster and portable.
+In static linking there are less chances to error and No chances to failure.
+Loader
+A loader is a program that loads the machine codes of a program into the system memory.  \It is part of the OS of the computer that is responsible for loading the program. It is the bare beginning of the execution of a program. Loading a program involves reading the contents of an executable file into memory. Only after the program is loaded on operating system starts the program by passing control to the loaded program code. All the OS that supports loading have loader and many have loaders permanently in their memory.
