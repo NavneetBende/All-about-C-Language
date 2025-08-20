@@ -1,0 +1,7 @@
+A Compiler is a program that  translates source code from a high-level programming language to a lower level language computer understandable language(e.g. assembly language, object code, or machine code) to create an executable program
+It is more intelligent than interpreter because it goes through the entire code at once
+It can tell the possible errors and limits and ranges.
+But this makes it’s operating time a little slower
+It is platform-dependent
+It help to detect error and get displayed after reading the entire code by compiler.
+In other words we can say that, “Compilers turns the high level language to binary language or machine code at only time once”, it is known as Compiler.
