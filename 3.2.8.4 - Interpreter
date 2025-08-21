@@ -1,0 +1,5 @@
+An interpreter is also a program like a compiler that converts assembly language into Machine Code
+But an interpreter goes through one line of code at a time and executes it and then goes on to the next line of the code and then the next and keeps going on until there is an error in the line or the code has completed.
+It is 5 to 25 times faster than a compiler but it stops at the line where error occurs and then again if the next line has an error too.
+Where as a compiler gives all the errors in the code at once.
+Also, a compiler saves the machine codes for future use permanently but an interpreter doesn’t, but an interpreter occupies less memory.
