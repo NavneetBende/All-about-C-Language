@@ -3,3 +3,12 @@ But an interpreter goes through one line of code at a time and executes it and t
 It is 5 to 25 times faster than a compiler but it stops at the line where error occurs and then again if the next line has an error too.
 Where as a compiler gives all the errors in the code at once.
 Also, a compiler saves the machine codes for future use permanently but an interpreter doesn’t, but an interpreter occupies less memory.
+
+Interpreter is differ from compiler such as,
+Interpreter is faster than compiler.
+It contains less memory.
+Interpreter executes the instructions in to source programming language.
+There are several types of interpreter:
+Syntax-directed interpreter
+Threaded interpreter
+Bytecode interpreter
