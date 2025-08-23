@@ -1,0 +1,17 @@
+For a code to run we need to include a header file or a file saved from the library which are pre-defined if they are not included in the beginning of the program then after execution the compiler will generate errors, and the code will not work.
+
+Linker is a program that holds one or more object files which is created by compiler, combines them into one executable file.Linking is implemented  at both time,load time and compile time. Compile time is when high level language is turns to machine code and load time is when the code is loaded into the memory by loader.
+
+Linker is of two types:
+
+1.Dynamic Linker:-          
+It is implemented during run time.
+It requires less memory.
+In dynamic linking there are many chances of error and failure chances.
+Linking stored the program in virtual memory to save RAM,So we have need to shared library
+2.Static Linker:-
+It is implemented during compilation of source program.
+It requires more memory.
+ Linking is implemented before execution in static linking.
+It is faster and portable.
+In static linking there are less chances to error and No chances to failure.
