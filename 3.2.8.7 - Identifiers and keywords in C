@@ -1,0 +1,130 @@
+Identifiers and Keywords
+In this section, we will learn about the keywords, reversed words in the C programming tat are the part of the syntax. also we will learn about the identifiers and how to name them.
+
+Keywords  int,double ,struct,switch etc.
+
+Identifiers  test,count, high, high_speed etc.
+
+now we will study about identifiers and keywords in detail. we will see, how many keywords is there in C programming and all the rule for the select identifiers.
+
+5-NF form in DBMS
+Keywords in C
+Keywords are predefined, reserved  words used in programming that have special meanings to compiler. Each keyword is meant to perform a specific function in a C program. Since keywords are referred name for compiler, they can not be used as variable name.
+
+There are fixed number of Keyword in C programming language and every Keyword serve as a building block for program statements. 
+
+There are total 32 keywords in C keywords are written in lowercase letters..
+
+Keywords table
+Following table represents the keywords in C. Here is a list of some identifiers given below
+
+ 
+
+C Language Keywords
+
+Keyword
+auto
+break
+case
+char
+const
+continue
+default
+do
+Keyword
+else
+enum
+double
+float
+for
+goto
+if
+int
+Keyword
+long
+register
+return
+short
+signed
+sizeof
+static
+struct
+Keyword
+switch
+typedef
+union
+unsigned
+void
+volatile
+while
+_Packed
+Related Pages
+Tokens in C
+
+Variables in C 
+
+Data Types in C
+
+Size of data types in C
+
+Enums in C
+
+
+Identifiers in C
+Each program elements in a C program are given a name called identifiers. Name given to identity variable, functions and arrays are examples for identifiers. 
+
+identifiers must be unique. they are created to give  a unique name  to an entity to identify it during the execution of the program.
+
+for example
+
+ 1 int square
+ 2 double balance 
+ 3 function add()
+Here, square , balance and add() are identifier. there are one thing that you should remember, identifier names must be different from keywords. you cannot use  int as an identifier because int is keyword.
+
+Rule for an identifier
+An identifier can only have alphanumeric characters (a-z, A-Z, 0-9) and underscore (_).
+The first character of an identifier can also contain alphabet (a-z, A-Z).
+Identifiers are also case sensitive in C. For example  name and Name are two different identifiers in C.
+Keywords are not allowed to be used as identifiers.
+No special character, such as semicolon, period, white spaces, slash or comma are permitted to be used in or as identifiers.
+ 
+
+Difference between Keyword and Identifier
+
+
+Basic
+Keyword: Keywords are the reserved words of a language.
+Identifier: Identifiers are the user-defined names of variables, functions, and labels.
+
+Use
+Keyword: Specify the type/kind of entity.
+Identifier: Identify the name of a particular entity.
+
+Format
+Keyword: Consider only letters.
+Identifier: Consider letters, underscores, and digits.
+
+Case
+Keyword: Use only lowercase.
+Identifier: Lowercase and uppercase, both are allowed.
+
+Symbol
+Keyword: No special symbol or punctuation is used.
+Identifier: No punctuation or special symbol except underscore is used.
+
+Classifications
+Keyword: Keyword not further classified.
+Identifier: Identifiers are classified into external and internal names.
+
+Starting Letter
+Keyword: It always starts with a lowercase letter.
+Identifier: First character can be uppercase, lowercase, or underscore.
+Conclusion
+To sum up, keywords and identifiers are basic but important parts of C programming.
+
+Keywords are reserved words like int, if, and return that have special meanings and can’t be used for anything else.
+Identifiers are the names we give to variables, functions, and other elements we create.
+They must follow certain rules and can’t be the same as keywords.
+Knowing the difference helps avoid errors and write clear, working programs.
+If you’re learning C, start by practicing how to name things correctly and understand what each keyword does. It builds a strong base for coding ahead.
