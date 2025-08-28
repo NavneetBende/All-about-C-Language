@@ -1,0 +1,5 @@
+Keywords are predefined, reserved  words used in programming that have special meanings to compiler. Each keyword is meant to perform a specific function in a C program. Since keywords are referred name for compiler, they can not be used as variable name.
+
+There are fixed number of Keyword in C programming language and every Keyword serve as a building block for program statements. 
+
+There are total 32 keywords in C keywords are written in lowercase letters..
