@@ -1,0 +1,10 @@
+Each program elements in a C program are given a name called identifiers. Name given to identity variable, functions and arrays are examples for identifiers. 
+
+identifiers must be unique. they are created to give  a unique name  to an entity to identify it during the execution of the program.
+
+for example
+
+ 1 int square
+ 2 double balance 
+ 3 function add()
+Here, square , balance and add() are identifier. there are one thing that you should remember, identifier names must be different from keywords. you cannot use  int as an identifier because int is keyword.
