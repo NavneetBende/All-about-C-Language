@@ -1,0 +1,5 @@
+An identifier can only have alphanumeric characters (a-z, A-Z, 0-9) and underscore (_).
+The first character of an identifier can also contain alphabet (a-z, A-Z).
+Identifiers are also case sensitive in C. For example  name and Name are two different identifiers in C.
+Keywords are not allowed to be used as identifiers.
+No special character, such as semicolon, period, white spaces, slash or comma are permitted to be used in or as identifiers.
