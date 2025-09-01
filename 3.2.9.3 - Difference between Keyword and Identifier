@@ -1,0 +1,27 @@
+Basic
+Keyword: Keywords are the reserved words of a language.
+Identifier: Identifiers are the user-defined names of variables, functions, and labels.
+
+Use
+Keyword: Specify the type/kind of entity.
+Identifier: Identify the name of a particular entity.
+
+Format
+Keyword: Consider only letters.
+Identifier: Consider letters, underscores, and digits.
+
+Case
+Keyword: Use only lowercase.
+Identifier: Lowercase and uppercase, both are allowed.
+
+Symbol
+Keyword: No special symbol or punctuation is used.
+Identifier: No punctuation or special symbol except underscore is used.
+
+Classifications
+Keyword: Keyword not further classified.
+Identifier: Identifiers are classified into external and internal names.
+
+Starting Letter
+Keyword: It always starts with a lowercase letter.
+Identifier: First character can be uppercase, lowercase, or underscore.
