@@ -1,0 +1,7 @@
+To sum up, keywords and identifiers are basic but important parts of C programming.
+
+Keywords are reserved words like int, if, and return that have special meanings and can’t be used for anything else.
+Identifiers are the names we give to variables, functions, and other elements we create.
+They must follow certain rules and can’t be the same as keywords.
+Knowing the difference helps avoid errors and write clear, working programs.
+If you’re learning C, start by practicing how to name things correctly and understand what each keyword does. It builds a strong base for coding ahead.
