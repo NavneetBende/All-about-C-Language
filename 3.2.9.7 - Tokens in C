@@ -1,0 +1,6 @@
+Tokens are called building block of C programming, that means only with the help of tokens a C program can be created.
+
+every small part that is used in the program is called tokens.
+In C programming, some INDIVIDUAL words and characters are fixed, whose functions are fixed, called tokens.
+It is the smallest Lexial unit of C program.
+There are some internal tokens we need to know while writing a program in C to understand the most basic to the syntax of the C language.
