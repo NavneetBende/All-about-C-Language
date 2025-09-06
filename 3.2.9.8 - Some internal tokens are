@@ -1,0 +1,15 @@
+Keywords
+Identifiers
+Constants
+Strings
+Special Symbols
+Operators
+for example, look at the program below. this program is used in the correct order of tokens.
+
+ #include
+ int main()
+ {
+      printf("my name is somya");
+      printf("%d",4);
+ }
+Tokens in C
