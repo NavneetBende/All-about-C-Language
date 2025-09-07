@@ -1,0 +1,11 @@
+Keywords are predefined statements ,operators reserved words which have a special meaning to the compiler while execution, they are a part of it and can not be used as an identifier. C language provides 32 keywords. every keyword has a special meaning. each keyword is defined to do a specific job. Here is a list of some identifiers given below
+
+auto	else	long	switch
+break	enum	register	typedef
+case	double	return	union
+char	float	short	unsigned
+const	for	signed	void
+continue	goto	sizeof	volatile
+default	if	static	while
+do	int	struct	_Packed
+ 	
