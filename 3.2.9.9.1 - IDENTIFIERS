@@ -1,0 +1,18 @@
+In a simple language an identifier is the name of a variable (integer,float(decimal),character) given to a variable or constant for a program just like a math problem. It can start anywhere from A to Z or a to z or underscore ( _ ) and you may or may not add more to the later by integer digits or more letters or underscores .
+
+But one should always remember that C is a case-sensitive programming language .So identifiers like Goku, goku, _goku, goku1 ,Goku1 are all different identifiers .
+
+Note : C doesn’t allow punctuation’s like ! @ $ % & * in identifiers so make sure you don’t have a g@ku or goku! named identifier .
+
+Identifiers are the names that give you variables,constants and functions. these are some rules to give to these names that you follow, if you don’t follow then there is an error in the program.
+
+In Identifiers @, %, -characters can not be used.
+C is a Case sensitive language, So more and More both are said to be different identifiers.
+In Identifiers, we can not use operators.
+It can start anywhere from A to Z or a to z or underscore ( _ ) and you may or may not add more to the later by integer digits or more letters or underscores.
+you can either start an identifier with either a character or underscore. Digits can not be started from identifiers.
+Example:-
+_old         //identifier
+2name       //not identifier
+person-name   //not identifier
+person_2_old       //identifier.
