@@ -1,0 +1,6 @@
+Constant is a value, which does not change in program execution.
+
+constant value is fixed.
+it is also known as Literals.
+it does not matter where we use it in program,its meaning always fixed.
+it is also like normal variables.
