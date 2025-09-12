@@ -1,0 +1,5 @@
+char string[20] = {‘p’,’r’,’e’,’p’,’I’,’n’,’s’,’t’,’a’,’\0′};
+
+char string[20] = “prepInsta”;
+
+char string[] = “prepInsta”;
