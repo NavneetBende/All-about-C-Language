@@ -1,0 +1,21 @@
+Some special symbols are used in C programming. symbols means alphabet, exclude the digits using some symbols in C programming.In C programming some special symbol are used in C having some special meaning and cannot be use in other purpose.
+
+The following symbols are:-
+
+Braces {}:- these curly braces are used to show the starting and ending of a block of code containing some executable statement.
+
+Parentheses ():- Parentheses are used to specify the function call and function parameter.
+
+Brackets []:- this is the opening and closing brackets. it is used as array element reference. these stipulate the single and multidimensional subscripts.
+
+Comma (,) :- it is used to separate more then one statement.
+
+Asterick (*) :- used to create pointer variable.
+
+Assignment variable:- used to assign values.
+
+Semicolon:- In C program after every statement we have to put a semicolon (;) which tells the compiler the statement ends there .For example
+
+ printf("Kamehameha");
+ return 6;
+It indicates the end of one logical entity.
