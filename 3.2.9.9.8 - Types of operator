@@ -1,0 +1,16 @@
+Unary Operator:– unary operators are those operators, which require only single operands is known as unary operator.
+          Example:- increment and decrements operator.
+
+2. Binary Operator:- Those operators, which require two operands is known as binary operator.
+
+Binary operators are:–
+
+Arithmetic operator
+Logical operator
+Bitwise operator
+Conditional operator
+Relational operator
+Assignment operator
+3.Ternary operator:- These operators which require three operands are known as ternary operator.
+
+         Example:– Conditional operator (?:).
