@@ -1,0 +1,143 @@
+Variables in programming
+In computer terms a variable is the name of the memory location of the data which can be accessed with the help of that name and can be rewritten or used for calculations later on. Variable is a storage area. which is used to store the data. variable data is contained, which can be changed at any time during program execution. After declaring the variable it is given a value, this value is to be assigned in the many form. Like x = 5; or a=10;    Before using the variable it is necessary to declare in C. Values of variables are changeable. You can delete a value and enter another value.  You can also do this on compile time and dynamically(during program execution). For example:  Let’s say we have to store a student’s name and his roll number in variable. For this we take two variables, store the name of the student in a variable while the other variable stores the roll number.
+
+variables in c
+Rules for Variable:-
+These stores the values inside it.
+Variable is also the name of a memory location.
+Variable is case-sensitive. For example, int a or int A both are different variable.
+ Variable starts with any alphabet (a-z, A-Z) or underscore(_).
+Variables name can be alphanumeric. for example, a1=5,  var1, var2
+Variable does not allow space.
+Variable name does not have any C keywords.
+The name of any variable can not be start with any number.
+Any upper case and lower case character can be used in any variable name.
+ 
+Datatype of Variables:
+A variable should be given a type in the C language,  which determines what kind of data the variable will hold. it can be:
+
+char : it can hold a character in it.
+int : it is used to hold an integer.
+double : it is used to hold a double value.
+float : it is used to hold a float value.
+Data Type
+Related Pages
+Tokens in C
+
+Keywords and Identifiers
+
+Data Types in C
+
+Size of data types in C
+
+Enums in C
+
+DECLARATION OF A VARIABLE
+While programming you first need to tell the computer/compiler the variable’s name and it’s data type, when you do that the compiler creates an empty memory reserved for that data .
+
+In other words, we can say that
+
+When we declare a variable , then it allocates memory according to the data type of variable.
+After declaration of th variable, it takes Garbage Value inside it.
+Syntax  for  Single Variable Declaration
+data_type single_variable_name;
+Example:
+
+int a;
+float b;
+char c;
+Source code:
+#include<stdio.h>
+int main()
+{
+   int a=25;
+   printf("value of a : %d", a);
+   return 0;
+}
+Output:
+
+value of a : 25
+Syntax for Multiple Variable Declaration
+data_type multiple_variable_name;
+For eg.
+
+int a,b,c;
+Source code:
+#include<stdio.h>
+int main()
+{
+   int a=25,b=4,c=67;
+   printf("value of a: %d",a);
+   printf("\nvalue of b: %d",b);
+   printf("\nvalue of c: %d",c);
+   return 0;
+}
+Output:
+
+value of a: 25
+value of b: 4
+value of c: 67
+Variable Initialization
+When the variable is initialized, then it allocates the memory according to data type of variable.
+In variable initialization, a variable takes only a value.
+Here, a, b, c are variables and int, float, char are data types. We can also provide the value to the variable during it’s declaration.
+
+Syntax for Single Variable Initialization
+data_type single_variable_name = value;
+Example:
+
+int a = 18 ;
+float b = 17.21 ;
+char c = "A" ;
+Scope of variables
+By scope of a variable we mean which part of the code a variable is accessible (visible) to .A variable can have many scopes in c let’s discuss some of them .
+
+According to Scope, variables is divided into two categories:-
+
+Local Variables
+Global Variables
+
+Scope of variable
+Local Variable
+Local variables are those variables that are defined in a small block of the program such as function, control statement block etc. Such variables are used only by the same block.
+
+A variable inside the function/block is a local variable .
+Local Variables is inside the function.
+The default value of the Local variables is ‘garbage value’.
+Example :
+
+#include<stdio.h> 
+int main()
+{
+     int a,b,c; // local variables
+     a =10;
+     b = 30;
+     c = a + b;
+     printf("%d",c);
+}
+Here a, b, c all are local variables and can not be used by any other function except main. On execution of the program the compiler prints 40
+
+ 
+Global variable
+As oppose to local variable a global variable is out side every function and is accessible to all the functions and the value of a global variable can be changed by any function.
+
+Global variables are those variable whose scope is in whole program. These variables are defined at the beginning of the program.
+
+Global variables are out of the function.
+Global variables have visibility throughout the program.
+The default value of ‘Global Variables’ is ‘0’.
+Example :
+
+#include<stdio.h>
+int d=20; // global variable
+int main()
+{
+      int a,b,c; // local variables
+      a = 10;
+      b = 30;
+      d = d + 10;
+      c = a + b + d;
+      printf("%d",c);
+      return c;
+}
+On execution of the program the compiler prints 70 .
