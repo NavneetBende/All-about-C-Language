@@ -1,0 +1,9 @@
+These stores the values inside it.
+Variable is also the name of a memory location.
+Variable is case-sensitive. For example, int a or int A both are different variable.
+ Variable starts with any alphabet (a-z, A-Z) or underscore(_).
+Variables name can be alphanumeric. for example, a1=5,  var1, var2
+Variable does not allow space.
+Variable name does not have any C keywords.
+The name of any variable can not be start with any number.
+Any upper case and lower case character can be used in any variable name.
