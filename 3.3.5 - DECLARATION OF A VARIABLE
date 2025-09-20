@@ -1,0 +1,6 @@
+While programming you first need to tell the computer/compiler the variable’s name and it’s data type, when you do that the compiler creates an empty memory reserved for that data .
+
+In other words, we can say that
+
+When we declare a variable , then it allocates memory according to the data type of variable.
+After declaration of th variable, it takes Garbage Value inside it.
