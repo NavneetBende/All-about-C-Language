@@ -1,0 +1,6 @@
+data_type single_variable_name;
+Example:
+
+int a;
+float b;
+char c;
