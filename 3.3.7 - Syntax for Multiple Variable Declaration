@@ -1,0 +1,5 @@
+data_type multiple_variable_name;
+
+For eg.
+
+int a,b,c;
