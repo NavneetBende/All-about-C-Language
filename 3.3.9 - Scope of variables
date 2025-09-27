@@ -1,0 +1,8 @@
+By scope of a variable we mean which part of the code a variable is accessible (visible) to .A variable can have many scopes in c let’s discuss some of them .
+
+According to Scope, variables is divided into two categories:-
+
+Local Variables
+Global Variables
+
+Scope of variable
