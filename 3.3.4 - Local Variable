@@ -1,0 +1,17 @@
+Local variables are those variables that are defined in a small block of the program such as function, control statement block etc. Such variables are used only by the same block.
+
+A variable inside the function/block is a local variable .
+Local Variables is inside the function.
+The default value of the Local variables is ‘garbage value’.
+Example :
+
+#include<stdio.h> 
+int main()
+{
+     int a,b,c; // local variables
+     a =10;
+     b = 30;
+     c = a + b;
+     printf("%d",c);
+}
+Here a, b, c all are local variables and can not be used by any other function except main. On execution of the program the compiler prints 40
