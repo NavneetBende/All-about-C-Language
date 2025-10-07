@@ -26,3 +26,9 @@ int main()
 Output:
 
 value of a : 25
+
+Syntax for Multiple Variable Declaration
+data_type multiple_variable_name;
+For eg.
+
+int a,b,c;
