@@ -44,3 +44,10 @@ int main()
    printf("\nvalue of c: %d",c);
    return 0;
 }
+
+
+Output:
+
+value of a: 25
+value of b: 4
+value of c: 67
