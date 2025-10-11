@@ -1,3 +1,8 @@
 When the variable is initialized, then it allocates the memory according to data type of variable.
 In variable initialization, a variable takes only a value.
 Here, a, b, c are variables and int, float, char are data types. We can also provide the value to the variable during it’s declaration.
+
+
+Syntax for Single Variable Initialization
+
+data_type single_variable_name = value;
