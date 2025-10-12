@@ -6,3 +6,9 @@ Here, a, b, c are variables and int, float, char are data types. We can also pro
 Syntax for Single Variable Initialization
 
 data_type single_variable_name = value;
+
+Example:
+
+int a = 18 ;
+float b = 17.21 ;
+char c = "A" ;
