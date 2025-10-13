@@ -12,3 +12,14 @@ Example:
 int a = 18 ;
 float b = 17.21 ;
 char c = "A" ;
+
+
+Scope of variables
+
+By scope of a variable we mean which part of the code a variable is accessible (visible) to .A variable can have many scopes in c let’s discuss some of them .
+
+According to Scope, variables is divided into two categories:-
+
+Local Variables
+Global Variables
+
