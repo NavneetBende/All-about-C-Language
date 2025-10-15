@@ -1,0 +1,12 @@
+
+
+#include<stdio.h> 
+int main()
+{
+     int a,b,c; // local variables
+     a =10;
+     b = 30;
+     c = a + b;
+     printf("%d",c);
+}
+Here a, b, c all are local variables and can not be used by any other function except main. On execution of the program the compiler prints 40
