@@ -1,0 +1,8 @@
+As oppose to local variable a global variable is out side every function and is accessible to all the functions and the value of a global variable can be changed by any function.
+
+Global variables are those variable whose scope is in whole program. These variables are defined at the beginning of the program.
+
+Global variables are out of the function.
+Global variables have visibility throughout the program.
+The default value of ‘Global Variables’ is ‘0’.
+Example :
