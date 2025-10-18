@@ -5,4 +5,19 @@ Global variables are those variable whose scope is in whole program. These varia
 Global variables are out of the function.
 Global variables have visibility throughout the program.
 The default value of ‘Global Variables’ is ‘0’.
+
 Example :
+
+#include<stdio.h>
+int d=20; // global variable
+int main()
+{
+      int a,b,c; // local variables
+      a = 10;
+      b = 30;
+      d = d + 10;
+      c = a + b + d;
+      printf("%d",c);
+      return c;
+}
+On execution of the program the compiler prints 70 .
