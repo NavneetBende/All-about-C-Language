@@ -1,0 +1,1 @@
+Scope is defined as region or block in which a variable is declared, defined, and utilised; the variable is removed automatically when the region or block expires. It can also be remembered as lifetime of a variable
