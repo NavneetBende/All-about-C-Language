@@ -1,1 +1,15 @@
 Scope is defined as region or block in which a variable is declared, defined, and utilised; the variable is removed automatically when the region or block expires. It can also be remembered as lifetime of a variable
+
+Representation of Scope :
+int main() { --------1--------------------------------------------|
+                                                                  |
+    int a;           // scope of a                                |
+                                                                  |
+    func() {  -------2----------------|                           |
+        int b;  //scope of b          |                           |
+                                      |                           |
+    } ---------------3----------------                            |
+                       // scope of a                              |
+    return 0;                                                     |
+} ----------------4-----------------------------------------------|
+In the above code , scope of variable a is from 1 to 4 space while scope of variable b is from 2 to 3 space.As variable a is declare in main() scope while variable b is declared in func() scope.
