@@ -61,3 +61,10 @@ d=10;                                                         |
                                                               | 
 return 0;                                                     |
 } -------------------------------------------------------2----|
+
+
+
+Formal Variable :
+Formal parameters are prioritised over global variables and are handled as local variables within a function.
+
+Below example are representing the functioning of formal variables.
