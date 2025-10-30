@@ -95,3 +95,11 @@ int product(int a, int b) {
 
    return a * b;
 }
+
+
+Output :
+
+value of a in main() = 10
+value of a in product() = 10
+value of b in product() = 15
+value of c in main() = 150
