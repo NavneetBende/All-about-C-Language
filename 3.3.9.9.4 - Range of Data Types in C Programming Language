@@ -1,1 +1,13 @@
-Data types in C help the programmers, to work with different types of data in a program. Using which we can accept and print different types of data. These data types have a definite range of data, and we have to choose the datatype according to their range and our data set. Every datatype has a range according to ASCII values of the characters in C.
+Data types in C help programmers to work with different types of data in a program. 
+Using which we can accept and print different types of data. 
+These data types have a definite range of data, and we have to choose the data type according to their range and our data set. 
+Every datatype has a range according to the ASCII values of the characters in C.
+
+
+
+Range of various Data Types:
+
+As we have discussed above that there are many different data types in C, 
+and every data type has a pre-defined range of data, under which it works, 
+So we need to be smart while choosing a datatype in our program, 
+below is a table which represents the different data-type, and their data range.
