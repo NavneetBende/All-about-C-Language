@@ -28,3 +28,6 @@ unsigned char	0 to 255
 
 
 Lets’s see a C program, for finding the range of the datatypes from the compiler itself. Yes, we can find out the range of the datatypes, from a C code also.
+
+
+C code for finding the range of Datatypes :
