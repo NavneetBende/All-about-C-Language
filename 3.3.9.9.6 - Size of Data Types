@@ -10,3 +10,12 @@ Derived Data Type
 
 
 Size of Data Types:
+
+Data Types	Size (in bytes)
+Int	4
+Char	1
+Float	4
+long	4
+Short	2
+Double	8
+
