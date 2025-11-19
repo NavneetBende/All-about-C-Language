@@ -34,7 +34,7 @@ Output:
 The size of int data type = 4
 
 Problem 2
-Write a program to calculate the size of character type data.
+Write a program to calculate the size of character-type data.
 
 #include<stdio.h>
 int main()
@@ -43,3 +43,7 @@ int main()
 	printf("The size of char data type = %d\n",size_of_char );
 return 0;
 }
+
+
+Output:
+The size of char data type = 1
