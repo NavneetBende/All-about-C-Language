@@ -61,3 +61,6 @@ return 0;
 
 Output:
 The size of float data type = 4
+
+Problem 4
+Write a program to calculate the size of long type data.
