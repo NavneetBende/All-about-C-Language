@@ -64,3 +64,11 @@ The size of float data type = 4
 
 Problem 4
 Write a program to calculate the size of long type data.
+
+#include<stdio.h>
+int main()
+{
+    int size_of_long = sizeof(long);
+    printf("The size of long data type = %d\n", size_of_long);
+    return 0;
+}
