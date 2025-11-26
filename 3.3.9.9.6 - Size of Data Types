@@ -75,3 +75,7 @@ int main()
 
 Output:
 The size of long data type = 8
+
+
+Problem 5
+Write a program to calculate the size of short type data.
