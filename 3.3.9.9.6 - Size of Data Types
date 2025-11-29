@@ -90,3 +90,6 @@ return 0;
 
 Output:
 The size of short data type = 2
+
+Problem 6
+Write a program to calculate the size of double type data.
