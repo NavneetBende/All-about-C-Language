@@ -1,5 +1,5 @@
 In C, each data type has a unique set of operations that can be done on it and varied memory requirements. The type of data that the variable can store, such as character, integer, float etc.
-
+hello
 Classification of Data Types in C:
 
 Types	Illustration
