@@ -1,5 +1,5 @@
 In C, each data type has a unique set of operations that can be done on it and varied memory requirements. The type of data that the variable can store, such as character, integer, float etc.
-hello
+
 Classification of Data Types in C:
 
 Types	Illustration
@@ -93,3 +93,11 @@ The size of short data type = 2
 
 Problem 6
 Write a program to calculate the size of double type data.
+
+#include<stdio.h>
+int main()
+{
+	int size_of_double=sizeof(double);
+	printf("The size of double data type = %d\n",size_of_double );
+return 0;
+}
