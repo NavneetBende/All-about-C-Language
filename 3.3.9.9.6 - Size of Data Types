@@ -101,3 +101,6 @@ int main()
 	printf("The size of double data type = %d\n",size_of_double );
 return 0;
 }
+
+Output:
+The size of double data type = 8
