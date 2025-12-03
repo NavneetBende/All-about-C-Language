@@ -1,0 +1,5 @@
+Constant in C
+
+Constant are those Whose value can not be change during program execution. 
+whenever you declare the constant its value remain fixed during execution of the program.
+If there is an attempt to change its value then there is an error in the progam.
