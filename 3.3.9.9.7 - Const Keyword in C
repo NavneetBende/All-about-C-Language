@@ -11,3 +11,6 @@ Value of Constant is fixed.
 Constant can be any data types.
 Constant is also known as Literals.
 Constant is also the pointer.
+
+Syntax :
+const data_type variable_name = value(optional);
