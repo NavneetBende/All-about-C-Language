@@ -14,3 +14,15 @@ Constant is also the pointer.
 
 Syntax :
 const data_type variable_name = value(optional);
+
+Example :
+
+
+#include<stdio.h>
+int main()
+{
+   const int SIDE =20;
+   int Volume;
+   Volume=SIDE * SIDE * SIDE;
+   printf("the volume of cube with side : %d is %d cu. units", SIDE,Volume);
+}
