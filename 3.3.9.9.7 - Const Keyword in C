@@ -26,3 +26,7 @@ int main()
    Volume=SIDE * SIDE * SIDE;
    printf("the volume of cube with side : %d is %d cu. units", SIDE,Volume);
 }
+
+Output :
+
+the volume of cube with side :20 is 8000 cu. units
