@@ -30,3 +30,8 @@ int main()
 Output :
 
 the volume of cube with side :20 is 8000 cu. units
+
+In C language there are two types of constant:-
+Constant Literals
+Constant variables
+
