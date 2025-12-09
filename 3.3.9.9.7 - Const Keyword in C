@@ -35,3 +35,7 @@ In C language there are two types of constant:-
 Constant Literals
 Constant variables
 
+Constant Literals
+Constant Literals are values that you use directly in the program. for example,
+y=x+2;
+
