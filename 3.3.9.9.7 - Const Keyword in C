@@ -39,3 +39,5 @@ Constant Literals
 Constant Literals are values that you use directly in the program. for example,
 y=x+2;
 
+In this example, 2 is constant literal. It has been directly used in the program. it can not be changed during execution in the program.
+
