@@ -41,3 +41,8 @@ y=x+2;
 
 In this example, 2 is constant literal. It has been directly used in the program. it can not be changed during execution in the program.
 
+Constant Variables
+you declare the constant variable like variables. 
+The advantage of a constant variable is that if you have to change constant later then you do not need to change it many places, 
+you only change the value of constant variable so that the value is automatically changed everywhere.
+
