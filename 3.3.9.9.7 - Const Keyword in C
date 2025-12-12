@@ -46,3 +46,13 @@ you declare the constant variable like variables.
 The advantage of a constant variable is that if you have to change constant later then you do not need to change it many places, 
 you only change the value of constant variable so that the value is automatically changed everywhere.
 
+Types of Constant
+
+There are 4 types of constant in C:-
+Integral Constant
+Floating constant
+Character constant
+String constant
+Constant Keywords
+
+Let’s discuss what are these in brief.
