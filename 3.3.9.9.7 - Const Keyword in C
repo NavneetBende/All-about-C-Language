@@ -56,3 +56,10 @@ String constant
 Constant Keywords
 
 Let’s discuss what are these in brief.
+
+Integral constant
+
+The constant in the integer value is an integral constant.
+Integer constant works as a normal value.
+Integer constant can be either negative or positive.
+Range of integer constant -32768 to 32767.
