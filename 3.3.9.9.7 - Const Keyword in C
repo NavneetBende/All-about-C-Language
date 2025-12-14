@@ -63,3 +63,13 @@ The constant in the integer value is an integral constant.
 Integer constant works as a normal value.
 Integer constant can be either negative or positive.
 Range of integer constant -32768 to 32767.
+
+Example :
+
+#include<stdio.h>
+int main()
+{
+    const int num =20;
+    printf("integer constant value is %d", num);
+    return 0;
+}
