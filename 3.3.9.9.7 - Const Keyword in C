@@ -73,3 +73,7 @@ int main()
     printf("integer constant value is %d", num);
     return 0;
 }
+
+Output :
+
+integer constant value is 20
