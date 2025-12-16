@@ -77,3 +77,10 @@ int main()
 Output :
 
 integer constant value is 20
+
+Floating constant
+
+A floating constant is a decimal value is called a floating constant.
+The floating constant works as a normal float variable.
+It contains the decimal point.
+If the value of the floating constant is of integer type, it takes the decimal point.
