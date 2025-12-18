@@ -87,29 +87,19 @@ If the value of the floating constant is of integer type, it takes the decimal p
 
 Example:
 
-class Solution {
-    public long maximumProfit(int[] prices, int k) {
-      int n=prices.length;
-      long[] cur=new long[n];
-      long[] prev=new long[n];
-
-      for(int j=1;j<=k;j++)
-      {
-        long bb=-prices[0];
-        long bs=prices[0];
-        cur[0]=0;
-        for(int i=1;i<n;i++)
-        {
-
-            cur[i]=Math.max(cur[i-1],Math.max(prices[i]+bb,bs-prices[i]));
-
-            bb=Math.max(bb,prev[i-1]-prices[i]);
-            bs=Math.max(bs,prev[i-1]+prices[i]);
-        }
-        long[] t=prev;
-        prev=cur;
-        cur=t;
-      }  
-      return prev[n-1];
-    }
+#include<stdio.h>
+int main()
+{
+    const float num1 = 5;
+    const float num2 = 3.123; 
+    printf("floating constant is %f", num1);
+    printf("floating constant is %f", num2);
+    return 0;
 }
+
+
+
+Output :
+
+floating constant is 5
+floating constant is 3.123
