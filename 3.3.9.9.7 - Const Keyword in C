@@ -103,3 +103,9 @@ Output :
 
 floating constant is 5
 floating constant is 3.123
+
+Character Constant
+When character values to it then it is called a character constant.
+Character constant works as a normal variable.
+Character constant takes only a single character.
+The character constant is also used with escape sequences.
