@@ -122,3 +122,7 @@ int main()
    printf("string constant is %s",escape);
    return 0;
 }
+
+Output :
+
+character constant is S string constant is Hello    World
