@@ -126,3 +126,11 @@ int main()
 Output :
 
 character constant is S string constant is Hello    World
+
+
+String constant
+
+A string constant is a string array (coming up in later lessons) having fixed string values to it.
+String constant takes a single character and multiple characters.
+The value of the string constant is written within the double quotation mark (“”).
+a string constant is also used with escape sequences.
