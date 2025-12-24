@@ -150,3 +150,10 @@ int main()
    printf("string with escape sequences: %s", st3);
    return 0;
 }
+
+Output :
+
+string constant with single character : S 
+normal string constant : Hey Somya 
+string with escape sequences : Hey 
+Somya
