@@ -157,3 +157,7 @@ string constant with single character : S
 normal string constant : Hey Somya 
 string with escape sequences : Hey 
 Somya
+
+Constant keyword
+We can define a constant to a program using #define or const int or const float or const char whichever we want and 
+that keyword (identifier) will have a fixed value and can not be changed later (remains a constant).
