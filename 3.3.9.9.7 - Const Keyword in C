@@ -172,3 +172,8 @@ void main()
        area=LENGTH*BREADTH;
        printf("%d",area);
 }
+
+
+Output :
+
+50
