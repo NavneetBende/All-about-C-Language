@@ -2,3 +2,8 @@ Introduction to TypeCasting
 The method of typecasting in C involves utilizing the casting operator during program design to change one data type to another.
 
 Depending on what we want the programme to perform, type casting causes the compiler to automatically switch from one data type to another.
+
+Syntax:
+int a;
+float b;
+b = (float) a;
