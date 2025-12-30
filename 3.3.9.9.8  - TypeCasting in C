@@ -7,3 +7,7 @@ Syntax:
 int a;
 float b;
 b = (float) a;
+
+Types of TypeCasting in C:
+Implicit typecasting
+Explicit typecasting
