@@ -16,3 +16,9 @@ Explicit typecasting
 Implicit Typecasting:
 In C, implicit type casting is used to change any variable’s data type without changing the value it stores.
 Without changing any of the values kept in the data variable, it executes the conversions.
+
+
+Explicit TypeCasting:
+
+The user converts types explicitly by using the (type) operator.
+The destination type’s ability to store the source value is checked at runtime prior to the conversion being carried out.
