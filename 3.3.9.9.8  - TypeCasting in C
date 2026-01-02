@@ -22,3 +22,15 @@ Explicit TypeCasting:
 
 The user converts types explicitly by using the (type) operator.
 The destination type’s ability to store the source value is checked at runtime prior to the conversion being carried out.
+
+Example 1:
+
+#include<stdio.h>
+int main()
+{
+        int x= 19, y=2;
+        float div;
+        div=x/y;
+        printf("The output : %f\n",div);
+        return 0;
+}
