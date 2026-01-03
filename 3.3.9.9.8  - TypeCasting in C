@@ -34,3 +34,6 @@ int main()
         printf("The output : %f\n",div);
         return 0;
 }
+
+Output:
+The output : 9.000000.
