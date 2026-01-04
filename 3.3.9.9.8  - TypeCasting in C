@@ -37,3 +37,8 @@ int main()
 
 Output:
 The output : 9.000000.
+
+Advantages of Typecasting:
+
+Programmers can change one data type to another by using type casting.
+The program is made lighter by typecasting.
