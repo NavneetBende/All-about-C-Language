@@ -1,1 +1,3 @@
 Introduction to control statements
+
+In C language we have to perform a lot of operations and to do them we have a bunch of control statements that help us to perform specific tasks . In C language you can decide which statements you want to execute in your program and which statements you want to skip. This is called decision making. Most decisions are done on a condition basis. When a particular condition arrives, you can execute the statements. Because these statements work with the conditions, they are also called conditional statements. And because they control execution in the statement program, they are also called control statements.
