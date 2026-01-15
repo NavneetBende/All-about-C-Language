@@ -60,3 +60,5 @@ If the condition is false then skip the entire block.
  Outside if   Inside
               if block
 
+
+Syntax of if statement
