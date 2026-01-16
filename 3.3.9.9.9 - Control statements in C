@@ -62,3 +62,8 @@ If the condition is false then skip the entire block.
 
 
 Syntax of if statement
+
+if(condition)
+{
+      //statements to be executed if condition is true.
+}
