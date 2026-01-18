@@ -1,5 +1,7 @@
 Introduction to C
-Below you will find all the important topic relating to the C language. These topics will help you clear the basics and underlying concepts of C, that will help you understand and grasp the language better.
+Below you will find all the important topic relating to the C language. 
+These topics will help you clear the basics and underlying concepts of C, 
+that will help you understand and grasp the language better.
 
 Study the Theory
 Watch the lectures
