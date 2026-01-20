@@ -83,3 +83,6 @@ Output :
 a is greater than b
 
 if else statement
+In some cases when if condition is not satisfied an if else statement will be the next statement that the compiler will now go to and execute if conditions matched.
+
+if else statement is considered to be part of an if statement. But else block is added in it. The statement given in Else block is executed when the condition of if is false.
