@@ -114,3 +114,6 @@ void main()
       printf("a is less than b");
    }
 }
+
+Output :
+a is less than b
