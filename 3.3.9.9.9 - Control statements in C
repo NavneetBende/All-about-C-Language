@@ -135,3 +135,6 @@ else(condition)
 {
     // statement to be executed if, neither if nor else if is true.
 }
+
+Output :
+a is less than b
