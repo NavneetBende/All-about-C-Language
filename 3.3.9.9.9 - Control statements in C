@@ -138,3 +138,5 @@ else(condition)
 
 Output :
 a is less than b
+
+else if statement
