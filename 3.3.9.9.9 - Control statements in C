@@ -141,3 +141,5 @@ a is less than b
 
 else if statement
 if you want to put another condition in the middle of if and else, then you can do this by defining else if block.
+
+Syntax of else-if statement
