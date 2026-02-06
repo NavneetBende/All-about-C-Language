@@ -159,3 +159,22 @@ else(condition)
 
 
 Example:
+
+#include<stdio.h> 
+void main()
+{
+   int a=5;
+   int b=5;
+   if(a>b)      //checks if a is greater than b
+   {
+       printf("a is greater than b");
+   }
+   else if(a<b)   //checks if a is less than b
+   {
+       printf("a is less than b");
+   }
+   else
+   {
+       printf("a is equal to b");
+   }
+}
