@@ -178,3 +178,6 @@ void main()
        printf("a is equal to b");
    }
 }
+
+Output :
+a is equal to b
