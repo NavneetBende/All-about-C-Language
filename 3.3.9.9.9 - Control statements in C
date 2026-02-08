@@ -181,3 +181,5 @@ void main()
 
 Output :
 a is equal to b
+
+There are a lot of other comparisons we can do in an if statement like
