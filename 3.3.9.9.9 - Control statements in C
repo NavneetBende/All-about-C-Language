@@ -194,3 +194,40 @@ Switch cases
 In a switch case, we provide (or take input from the user) a key and give it to the switch, 
 and the switch compares that value with its cases, 
 And if it is equal, it will execute that case, and if no cases match, then it runs a default case.
+
+                Switch case in C
+                ----------------
+
+                [ switch expression ]
+                         |
+                         v
+                      +---------+
+                      | Case 1  |
+                      +---------+
+                         | yes
+                         v
+                   [ Statement 1 ]
+                         |
+                         v
+                     End Switch
+
+                         |
+                         | no
+                         v
+                      +---------+
+                      | Case 2  |
+                      +---------+
+                         | yes
+                         v
+                   [ Statement 2 ]
+                         |
+                         v
+                     End Switch
+
+                         |
+                         | no
+                         v
+                   [ Default Statement ]
+                         |
+                         v
+                     End Switch
