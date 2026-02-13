@@ -231,3 +231,4 @@ And if it is equal, it will execute that case, and if no cases match, then it ru
                          |
                          v
                      End Switch
+Syntax of switch case
