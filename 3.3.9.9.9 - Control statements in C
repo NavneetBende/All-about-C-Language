@@ -231,3 +231,15 @@ And if it is equal, it will execute that case, and if no cases match, then it ru
 
 
 Syntax of switch case
+
+switch(value)
+{    
+    case (condition):
+       //statement to be executed if condition is true
+       break;
+   case (condition):
+      //statement to be executed if condition is true
+      break;
+   default:
+     //statement to be executed if none of the case is true
+}
