@@ -1,6 +1,10 @@
 What are Escape Characters in C ?
+
 Like every other programming languages, C programming language also has a predefined set of characters, 
 which a programmer can use while coding in C. There are a total of 256 characters in C Language, 
 which are further divided into two categories: ASCII Characters ,Extended ASCII Characters, Other 
 than these 256 characters, there are some other special characters also present in C, 
 which do not represent themselves, they are categorized as Escape Characters or Escape Sequences in C Programming Language
+
+
+Difference between ASCII Characters and Escape Sequences in C
