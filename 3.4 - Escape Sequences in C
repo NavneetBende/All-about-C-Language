@@ -8,3 +8,20 @@ which do not represent themselves, they are categorized as Escape Characters or 
 
 
 Difference between ASCII Characters and Escape Sequences in C
+
+Escape Sequences in C are use to represent other characters, which generally are not present in ASCII Characters, 
+and are hard or impossible to represent without using Escape Characters. 
+Escape Characters are usually followed by a ‘backslash‘ and one or more ‘character‘, 
+
+for example-: \n, \t, etc.  
+
+As we have discussed above, Escape Characters do not represent themselves, 
+but they are used to represent some other characters or operations. 
+Below is a table which describes about all the Escape Sequences and their use.
+
+Note-: Not all the characters followed by ‘backslash(\)’ will be a Escape Character i.e; 
+if we write
+
+char str = ‘\c’;
+
+Then, it will not be considered as a Escape Character, and the compiler will throw  a error.
