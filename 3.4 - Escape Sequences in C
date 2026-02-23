@@ -25,3 +25,6 @@ if we write
 char str = ‘\c’;
 
 Then, it will not be considered as a Escape Character, and the compiler will throw  a error.
+
+
+List of All the Escape Sequences in C
