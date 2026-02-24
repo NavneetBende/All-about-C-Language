@@ -28,3 +28,27 @@ Then, it will not be considered as a Escape Character, and the compiler will thr
 
 
 List of All the Escape Sequences in C
+
++------------------+-------------------------------+------------------+
+| Escape Characters| Use for                       | Hex value in ASCII|
++------------------+-------------------------------+------------------+
+| \a               | Alert (Beep Sound)            | 07               |
+| \b               | Backspace                     | 08               |
+| \e               | Escape Character              | 1B               |
+| \f               | Formfeed Page break           | 0C               |
+| \n               | New line                      | 0A               |
+| \r               | Carriage return               | 0D               |
+| \t               | Horizontal Tab                | 09               |
+| \v               | Vertical Tab                  | 0B               |
+| \\               | Backslash                     | 5C               |
+| \'               | Apostrophe                    | 27               |
+| \"               | Double quotes                 | 22               |
+| \?               | Question mark                 | 3F               |
+| \nnn             | Octal number                  | any              |
+| \xhh             | Hexadecimal number            | any              |
+| \uhhhh           | unicode point below 10,000 hex| none             |
+| \uhhhhhhhh       | unicode point where h is hex  | none             |
++------------------+-------------------------------+------------------+
+
+
+
