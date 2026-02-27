@@ -54,3 +54,10 @@ List of All the Escape Sequences in C
 C Code for using Escape Sequences
 
 Using  /a
+
+#include<stdio.h>  
+int main() 
+{ 
+    printf("Hello P\ar\ae\ap\aS\at\ae\ar\a"); 
+    return (0); 
+}
