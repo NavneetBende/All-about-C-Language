@@ -61,3 +61,5 @@ int main()
     printf("Hello P\ar\ae\ap\aS\at\ae\ar\a"); 
     return (0); 
 }
+
+Output : 
