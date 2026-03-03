@@ -66,3 +66,10 @@ Output :
 Hello PrepSter
 
 Using  /n
+
+#include<stdio.h>  
+int main() 
+{ 
+    printf("Hello\n" "PrepSters"); 
+    return (0); 
+}
