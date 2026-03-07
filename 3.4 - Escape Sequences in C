@@ -79,3 +79,10 @@ Output :Hello
 PrepSters
 
 Using  /b
+
+#include<stdio.h>  
+int main() 
+{ 
+    printf("Hello PrepSters\b\b\b\b\bs"); 
+    return (0); 
+}
