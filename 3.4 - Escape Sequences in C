@@ -86,3 +86,6 @@ int main()
     printf("Hello PrepSters\b\b\b\b\bs"); 
     return (0); 
 }
+
+
+Output :
