@@ -92,3 +92,10 @@ Output :
 Hello Prepsters
 
 Using  /r
+
+#include  
+int main() 
+{ 
+    printf("Hello \r PrepSters"); 
+    return (0); 
+}
