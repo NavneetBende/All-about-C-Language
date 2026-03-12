@@ -99,3 +99,5 @@ int main()
     printf("Hello \r PrepSters"); 
     return (0); 
 }
+
+Output :
