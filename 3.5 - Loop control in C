@@ -6,3 +6,6 @@ and they would get executed as many times as we want them to .
 
 You have provided loops in C language. With the help of loops, you can execute the same statement repeatedly. 
 Each type of loop provides a block in which statements are written which you want to execute more than once.
+
+
+Types of loops:
