@@ -9,3 +9,8 @@ Each type of loop provides a block in which statements are written which you wan
 
 
 Types of loops:
+There are 3 types of loops in C :
+
+While loop
+Do while loop
+For loop
