@@ -36,3 +36,9 @@ For loop
          └──────────────────────┘
 
 While loop
+
+In a while we have a condition and as long that condition is being satisfied the loop will keep running.
+
+while loop is a simple loop, it executes, as long as the condition remains true.
+when the condition is false, this loop gets terminated.
+This loop is used when the number of iteration is not known.
