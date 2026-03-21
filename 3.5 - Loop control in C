@@ -42,3 +42,6 @@ In a while we have a condition and as long that condition is being satisfied the
 while loop is a simple loop, it executes, as long as the condition remains true.
 when the condition is false, this loop gets terminated.
 This loop is used when the number of iteration is not known.
+
+Syntax of while loop
+Below is the syntax of while loop in C.
