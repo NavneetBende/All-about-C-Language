@@ -45,3 +45,22 @@ This loop is used when the number of iteration is not known.
 
 Syntax of while loop
 Below is the syntax of while loop in C.
+
+╔══════════════════════════════════════╗
+║       WHILE LOOP SYNTAX (C)          ║
+╚══════════════════════════════════════╝
+
+        ┌──────────────────────┐
+        │ while (condition)    │
+        └─────────┬────────────┘
+                  │
+                  ▼
+              ┌─────────┐
+              │   {     │
+              │         │
+              │ stmt 1  │
+              │ stmt 2  │
+              │   ...   │
+              │         │
+              │   }     │
+              └─────────┘
