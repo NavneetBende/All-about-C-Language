@@ -66,3 +66,14 @@ Below is the syntax of while loop in C.
               └─────────┘
 
 C program using while loop
+
+#include<stdio.h> 
+void main()
+{
+    int a = 1;
+    while(a<=5)        //loop will run as long as a is less than or equal to 5
+    {
+        printf("loop ran\n");     //the \n will make the next output to be print in next line
+        a++;            //value of a increases by one
+    }
+}
