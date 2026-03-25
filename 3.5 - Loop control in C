@@ -77,3 +77,6 @@ void main()
         a++;            //value of a increases by one
     }
 }
+
+
+Output :
