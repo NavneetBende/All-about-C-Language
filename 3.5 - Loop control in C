@@ -90,3 +90,8 @@ loop ran
 
 
 Do-While loop
+
+Do while loop is exactly like while loop the only difference being in do while loop the loop will run the once even 
+if the condition is not satisfied and it checks the condition from the 2nd time and onwards.
+
+Do while is also known as exit control loop.
