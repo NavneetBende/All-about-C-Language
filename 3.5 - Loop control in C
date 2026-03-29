@@ -95,3 +95,7 @@ Do while loop is exactly like while loop the only difference being in do while l
 if the condition is not satisfied and it checks the condition from the 2nd time and onwards.
 
 Do while is also known as exit control loop.
+
+Syntax of do while loop
+
+Below is the syntax of do-while loop in C.
