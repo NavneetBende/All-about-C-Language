@@ -101,3 +101,14 @@ Syntax of do while loop
 Below is the syntax of do-while loop in C.
 
 C program using do-while loop
+
+#include<stdio.h>
+void main()
+{
+   int a = 10;
+   do
+   {
+        printf("loop ran\n");//the \n will make the next output to be print in next line
+        a++; //value of a increases by one
+   }while(a<=5); //loop will run once an then as long as a is less or equal to 5
+}
