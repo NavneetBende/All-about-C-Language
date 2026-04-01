@@ -112,3 +112,5 @@ void main()
         a++; //value of a increases by one
    }while(a<=5); //loop will run once an then as long as a is less or equal to 5
 }
+
+Output :
