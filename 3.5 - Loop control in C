@@ -121,3 +121,6 @@ For loop
 
 - In C loops, for loop is mostly used.
 -This loop is very easy and gets define in a single statement.
+
+A for loop is like a while loop, but in a for loop, we tell the loop the new initialisation (if any). 
+the condition/s and the increment/decrements (after the loop runs), each separated by a semicolon.
