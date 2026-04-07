@@ -126,3 +126,5 @@ A for loop is like a while loop, but in a for loop, we tell the loop the new ini
 the condition/s and the increment/decrements (after the loop runs), each separated by a semicolon.
 
 Syntax of for loop
+
+Below is the syntax of for loop in C.
