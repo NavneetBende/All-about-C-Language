@@ -130,3 +130,13 @@ Syntax of for loop
 Below is the syntax of for loop in C.
 
 C program using for loop
+
+#include<stdio.h>
+void main()
+{
+    for(int a = 1; a <= 5;a++) //loop will run as long as a is less or equal to 5
+    {
+        printf("loop ran\n"); // \n will make the next output to be printed in next line
+    }
+}
+
