@@ -155,3 +155,5 @@ Sometimes for special reasons we need more control on our loop and these are pro
 
 Loop control statements are statements that change the execution of the loop according to any condition. 
 These statements are very useful for changing the loop accordingly.
+
+he three types of loop control statements are
