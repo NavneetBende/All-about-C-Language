@@ -165,3 +165,5 @@ The three types of loop control statements are
 3. goto
 
 Break 
+The break statement is used to terminate the loop. When a break statement is executed inside a loop, 
+the loop get terminated at the same time and the execution of next statement begins after that loop.
