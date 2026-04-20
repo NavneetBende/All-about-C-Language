@@ -170,3 +170,4 @@ the loop get terminated at the same time and the execution of next statement beg
 
 Syntax
 
+break;
