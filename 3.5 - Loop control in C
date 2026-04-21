@@ -171,3 +171,21 @@ the loop get terminated at the same time and the execution of next statement beg
 Syntax
 
 break;
+
+        +------------------+
+        |    LOOP BODY     |
+        +------------------+
+                 |
+                 v
+        +----------------------+
+        |  Condition to break  |
+        +----------------------+
+           /              \
+      False                True
+        |                   |
+        v                   v
++------------------+   +------------------+
+|   Continue Loop  |   |  Terminate Loop  |
++------------------+   +------------------+
+        |
+        +--------------------> (Back to LOOP BODY)
