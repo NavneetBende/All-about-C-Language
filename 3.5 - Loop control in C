@@ -228,3 +228,5 @@ Output :
 
 
 Continue Statement:
+It is used to skip remainder part of the loop. Statement written after continue is ignored. 
+For example, if you want the third iteration of the loop to not execute, then you can skip it by writing  continue.
