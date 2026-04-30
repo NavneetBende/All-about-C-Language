@@ -234,3 +234,5 @@ For example, if you want the third iteration of the loop to not execute, then yo
 Syntax
 
 continue;
+
+C Program using continue statement
