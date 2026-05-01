@@ -236,3 +236,18 @@ Syntax
 continue;
 
 C Program using continue statement
+
+#include<stdio.h> 
+void main()
+{
+    int i;
+    for(i=1;i<=5;i++)
+    {
+        if(i==3)
+        {
+            printf("Third iteration skipped\n");  // skipping third iteration using continue statement
+                      continue;
+        }
+        printf("%d\n",i);
+    }
+}
