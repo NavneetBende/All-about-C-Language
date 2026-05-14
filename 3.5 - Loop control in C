@@ -297,5 +297,7 @@ Third iteration skipped
 
 Goto Statement:
 
-With the goto statement we can go back to a previous step or jump some steps coming up by putting 
-a label followed by a colon and then compiler will start executing the program from there again.
+With the goto statement, we can go back to a previous step or jump some steps coming up by putting 
+a label followed by a colon, and then the compiler will start executing the program from there again.
+
+Syntax:
