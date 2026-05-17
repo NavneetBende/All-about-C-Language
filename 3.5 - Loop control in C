@@ -311,3 +311,17 @@ label-name
 ...
 
 C program using goto
+
+#include<stdio.h>
+void main()
+{
+   int age;
+   lab1:
+   printf("You are not eligible to vote\n");
+   printf("Enter your age\n");
+   scanf("%d",&age);
+   if(age<18)
+      goto lab1;
+   else
+      printf("You are eligible to vote\n");
+}
