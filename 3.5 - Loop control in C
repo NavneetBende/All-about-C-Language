@@ -325,3 +325,5 @@ void main()
    else
       printf("You are eligible to vote\n");
 }
+
+Input :
