@@ -36,18 +36,25 @@ Structure of a C++ Program
 Program to check armstrong number or not
 
 1: Object-Oriented Design
-C++ has support for Class, object, inheritance, abstraction, etc as a result code reusability, data hiding, and memory management is possible
+C++ has support for Class, object, inheritance, abstraction, etc as a result code reusability, 
+data hiding, and memory management is possible
 C doesn’t have OOPs features, data is open everywhere and move freely through functions
+
 2: Procedural v/s Hybrid Language
-C is a procedural language i.e development of code in the form of a list of  instructions (functions) where each instruction conveys the compiler to do some action
-C++ is viewed as Hybrid language i.e it can be used as object-oriented or traditional C type Procedural Programming i.e using OOPS in C++ is optional whereas in java it is mandatory.
+C is a procedural language i.e development of code in the form of a list of  instructions (functions) 
+where each instruction conveys the compiler to do some action
+C++ is viewed as Hybrid language i.e it can be used as object-oriented or traditional C type Procedural Programming 
+i.e using OOPS in C++ is optional whereas in java it is mandatory.
+
 3: Namespace Feature
-C has predefined function support only in the form of header files, as a result, you cannot duplicate the names within the file or program
-C++ has namespace feature which enables to have same names for functions or variables which  solves naming collision problem
+C has predefined function support only in the form of header files, as a result, 
+you cannot duplicate the names within the file or program
+C++ has namespace feature which enables to have same names for functions or variables, 
+which  solves the naming collision problem
 With namespace in C++
 
 
-Run
+
 
 
 #include<iostream>
