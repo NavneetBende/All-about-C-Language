@@ -1,11 +1,11 @@
-How does ‘void*’ differ in C and C++ ?
-On this page we will discuss about difference in void* in C vs C++ . void* is a type of pointer that points to an area of memory holding data of an unknown type. It is often used as a generic type for passing pointers around in a code, since it can hold the address of any type of object.
+How does ‘void*’ differ in C and C++?
+On this page, we will discuss the difference between void* in C and C++. void* is a type of pointer that points to an area of memory holding data of an unknown type. It is often used as a generic type for passing pointers around in a code, since it can hold the address of any type of object.
 
 void* in C vs C++
 Difference in void* in C vs C++
 The void* type behaves similarly in both C and C++, as it is used to represent a pointer to an area of memory that holds data of an unknown type. However, there are a few key differences between the way void* is used in these two languages:
 
-In C++, void* can be used as the type of a function parameter or return value, while in C it cannot. In C, you must use a specific pointer type instead.
+In C++, void* can be used as the type of a function parameter or return value, while in C, it cannot. In C, you must use a specific pointer type instead.
 In C++, void* can be explicitly converted to and from any other pointer type using the static_cast operator. In C, you must use a type cast to perform this conversion.
 In C++, void* cannot be dereferenced directly. You must first cast it to a pointer of a specific type before you can use it to access the data it points to. In C, you can dereference a void* pointer using a type cast.
 void *p;
