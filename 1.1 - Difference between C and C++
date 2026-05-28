@@ -1,14 +1,16 @@
 Difference between C and C++
+
 When it comes to programming languages, C and C++ are two names that often pop up. 
 Both languages are widely used and have made significant contributions to the world of software development.
 
 However, they have distinct differences in terms of functionality, features, and application. In this article, we will explore the dissimilarities between C and C++, helping you make an informed choice when it comes to selecting the right language for your programming needs.
 
 Difference Between C and C++
-C++ is an enhanced version of C which has Object-oriented flavour which enhanced the developer  speed and productivity
-MongoDB and Apache HTTP server had its design motivation from C++ alone
 
-Top 10 Key differences between C and C++
+C++ is an enhanced version of C, which has an object-oriented flavour that enhances the developer  speed and productivity
+MongoDB and the Apache HTTP server had their design motivation from C++ alone
+
+Top 10 Key Differences between C and C++
 
 Parameters	C	C++
 
@@ -36,20 +38,23 @@ Structure of a C++ Program
 Program to check armstrong number or not
 
 1: Object-Oriented Design
+
 C++ has support for Class, object, inheritance, abstraction, etc as a result code reusability, 
 data hiding, and memory management is possible
 C doesn’t have OOPs features, data is open everywhere and move freely through functions
 
 2: Procedural v/s Hybrid Language
+
 C is a procedural language i.e development of code in the form of a list of  instructions (functions) 
 where each instruction conveys the compiler to do some action
 C++ is viewed as Hybrid language i.e it can be used as object-oriented or traditional C type Procedural Programming 
-i.e using OOPS in C++ is optional whereas in java it is mandatory.
+i.e using OOPS in C++ is optional, whereas in java it is mandatory.
 
 3: Namespace Feature
+
 C has predefined function support only in the form of header files, as a result, 
-you cannot duplicate the names within the file or program
-C++ has namespace feature which enables to have same names for functions or variables, 
+You cannot duplicate the names within the file or program
+C++ has a namespace feature which enables having the same names for functions or variables, 
 which  solves the naming collision problem
 With namespace in C++
 
@@ -73,7 +78,7 @@ int main()
   
     return 0;
 }
-Without namespace in C++
+Without a namespace in C++
 
 
 Run
@@ -90,28 +95,39 @@ int main()
 
 
 4: Reference Variables support
-Reference variables enable the user to have multiple variables point a single memory address which is not possible in C
-C++ has only pointer support: When the reference variable is lost it can be accessed through another alias variable, but if the pointer is lost,  the whole security comes into question
+
+Reference variables enable the user to have multiple variables point to a single memory address, which is not possible in C
+C++ has only pointer support: When the reference variable is lost, it can be accessed through another alias variable, but if the pointer is lost,  the whole security comes into question
 Learn more about references: Reference Variables in C++
 
 5: Keywords
-C supports 32 keywords whereas C++ has also the same 32 keywords and along with exclusive 20 keywords it has a count of 52 keywords in C++
+C supports 32 keywords, whereas C++ has the same 32 keywords and, along with exclusive 20 keywords, it has a count of 52 keywords in C++
+
 6: Overloading of functions and operators
+
 C++ can have  different functionalities for the same operator
 ex: + can join a string and arithmetic addition of numbers (using Operator Overloading)
 C++ can have the same name for different functions where the only type of input is different (using Function Overloading)
-In C you have abs() labs() sabs() function here function code is the same only datatype is different but still, you need to have a different namer which  hampers readability.
+In C, you have abs(), labs() sabs() function here function code is the same only datatype is different but still, you need to have a different namer which  hampers readability.
+
 7: Subset v/s Superset
-C is a subset of C++ whereas C++ is a superset of C which means all the
-C codes can be clubbed or run alone in C++ compiler but vice-versa not possible.
+
+C is a subset of C++, whereas C++ is a superset of C, which means all the
+C codes can be clubbed or run alone in a C++ compiler, but vice-versa not possible.
+
 8: Support for exception handling
+
 C++ has direct support for exception handling in the form of try, throw, catch keywords which can avoid abnormal termination of the program due to runtime errors
-In C any runtime error occurs program shutdowns immediately
+In C any runtime error occurs program shuts down immediately
 ex: the situation of divide by 0 can be handled in C++ but in C it results in compiler failure.
+
 9: Designers and History
+
 C was developed by Dennis Ritchie In 1970s at AT&T Bell Labs with the combined features  of BCPL and Basic Programming Languages
-Inspired from the class feature of Simula67 and block structured
-programming of C, C++was developed by Bjarne Stroustrup in 1979 as an extension of C.
+Inspired by the class feature of Simula67 and block-structured
+Programming in C, C++was developed by Bjarne Stroustrup in 1979 as an extension of C.
+
 10: When C and When C++
+
 C is the only option for embedded systems and System level code(operating System design)
 C++ gives High-end performance when used in device drivers, server-side applications, gaming, networking i.e super secure application design requires data-hiding from OOPS.
