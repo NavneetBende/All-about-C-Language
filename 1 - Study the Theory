@@ -4,8 +4,11 @@ Here we will learn about the structure of the C language and the syntax in order
 These are important topics, and you need to be thorough in these topics before you move further.
 
 C++ vs C
+
 C program that won’t compile in C++
+
 Undefined Behaviour in C and C++
+
 Void* in C vs C++.
 
 A program that produces different results in C and C++
