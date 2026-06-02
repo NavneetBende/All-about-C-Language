@@ -1,14 +1,22 @@
 Size of Data Types
-In C, each data type has a unique set of operations that can be done on it and varied memory requirements. The type of data that the variable can store, such as character, integer, float etc.
 
-Examples of Calculating Size of Data type
+In C, each data type has a unique set of operations that can be done on it and varied memory requirements. 
+The type of data that the variable can store, such as character, integer, float etc.
+
+Examples of Calculating the Size of Data type
+
 Classification of Data Types in C:
+
 Types	Illustration
-Primitive Data Type	Primitive data type are used as a most fundamental data type in programming languages. Examples of primitive data type are as byte, character, sort, int, boolean, long, float and double.
-User Defined Data Type	A user defined data type is a data type that can be derived from an existing data type.Examples of user derived data types are as array, pointer, structure and union.
-Void Data Type	A void data type is a data type that hasn’t any value or operator and it doesn’t give any response to its caller. A void data type comes from primitive data type.
-Derived Data Type	A derived data type is a data type that derived from built-in or primitive data types.
+Primitive Data Type	Primitive data types are used as the most fundamental data types in programming languages. 
+Examples of primitive data types are byte, character, sort, int, boolean, long, float and double.
+User Defined Data Type	A user-defined data type is a data type that can be derived from an existing data type.
+Examples of user-defined data types are an array, pointer, structure and union.
+Void Data Type	A void data type is a data type that doesn’t have any value or operator, and it doesn’t give any response to its caller. 
+A void data type comes from a primitive data type.
+Derived Data Type	A derived data type is a data type that is derived from built-in or primitive data types.
 Related Pages
+
 Tokens in C
 
 Variables in C 
