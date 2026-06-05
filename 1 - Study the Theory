@@ -150,3 +150,37 @@ Programming in C, C++was developed by Bjarne Stroustrup in 1979 as an extension 
 
 C is the only option for embedded systems and system-level code (operating System design)
 C++ gives High-end performance when used in device drivers, server-side applications, gaming, networking i.e super secure application design requires data-hiding from OOPS.
+
+
+
+
+
+
+#include<iostream>
+namespace Prep1  //first namespace
+{
+    int a = 1;
+}
+namespace Prep2  //2nd namespace
+{
+    int a = 2; //same name but different namespace
+}
+int main()
+{
+    cout << Prep1::a;
+    cout << Prep2::a;
+  
+    return 0;
+}
+
+
+WithOut namespace in C++
+
+#include<iostream>
+int main()
+{
+    int a = 1;
+    // int a = 2 error: a is previously used
+
+    return 0;
+}
