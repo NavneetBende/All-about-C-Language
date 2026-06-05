@@ -127,33 +127,34 @@ C supports 32 keywords, whereas C++ has the same 32 keywords and, along with exc
 C++ can have  different functionalities for the same operator
 ex: + can join a string and arithmetic addition of numbers (using Operator Overloading)
 C++ can have the same name for different functions where the only type of input is different (using Function Overloading)
-In C, you have abs(), labs() sabs() function here function code is the same only datatype is different but still, you need to have a different namer which  hampers readability.
+In C, you have abs(), labs() sabs() function here function code is the same, only datatype is different but still, you need to have a different namer which  hampers readability.
 
 7: Subset v/s Superset
 
 C is a subset of C++, whereas C++ is a superset of C, which means all the
-C codes can be clubbed or run alone in a C++ compiler, but vice-versa is not possible.
+C code can be clubbed or run alone in a C++ compiler, but vice versa is not possible.
 
 8: Support for exception handling
 
 C++ has direct support for exception handling in the form of try, throw, and catch keywords, which can avoid abnormal termination of the program due to runtime errors
-In C, any runtime error occurs, the program shuts down immediately
+In C, if any runtime error occurs, the program shuts down immediately
 Ex: the situation of divide by 0 can be handled in C++ but in C it results in compiler failure.
 
 9: Designers and History
 
-C was developed by Dennis Ritchie In 1970s at AT&T Bell Labs with the combined features  of BCPL and Basic Programming Languages
+C was developed by Dennis Ritchie in the 1970s at AT&T Bell Labs with the combined features  of BCPL and Basic Programming Languages
 Inspired by the class feature of Simula67 and block-structured
 Programming in C, C++was developed by Bjarne Stroustrup in 1979 as an extension of C.
 
 10: When C and When C++
 
 C is the only option for embedded systems and system-level code (operating System design)
-C++ gives High-end performance when used in device drivers, server-side applications, gaming, networking i.e super secure application design requires data-hiding from OOPS.
+C++ gives High-end performance when used in device drivers, server-side applications, gaming, and networking 
+i.e., a super-secure application design requires data-hiding from OOPS.
 
 
 
-
+With namespace in C++
 
 
 #include<iostream>
