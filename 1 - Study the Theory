@@ -324,3 +324,16 @@ int main()
   
   return 0;
 }
+
+Declaring constant values without initialising
+
+#include <stdio.h>
+
+int main()
+{
+  const int x;
+  printf("x = %d\n", x);
+  
+  return 0;
+}
+
