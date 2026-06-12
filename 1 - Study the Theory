@@ -432,3 +432,8 @@ int main() {
   throw "exception";
   return 0;
 }
+
+Accessing an array out of bounds
+
+int arr[10];
+printf("%d", arr[10]); // undefined behavior
