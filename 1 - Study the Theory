@@ -437,3 +437,8 @@ Accessing an array out of bounds
 
 int arr[10];
 printf("%d", arr[10]); // undefined behavior
+
+Deferencing a null pointer
+
+int *ptr = NULL;
+printf("%d", *ptr); // undefined behavior
