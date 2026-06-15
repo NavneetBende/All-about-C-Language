@@ -1,2 +1,0 @@
-unsigned int x = 0;
-x--; // undefined behavior
