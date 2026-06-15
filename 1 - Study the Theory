@@ -449,3 +449,9 @@ Using a variable before it has been initialized
 int x;
 printf("%d", x); // undefined behavior
 
+Overflowing an integer
+
+unsigned int x = 0;
+x--; // undefined behavior
+
+
