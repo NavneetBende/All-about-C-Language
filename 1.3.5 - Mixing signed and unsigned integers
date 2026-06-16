@@ -1,3 +1,0 @@
-signed int x = -1;
-unsigned int y = 1;
-if (x > y) // undefined behavior
