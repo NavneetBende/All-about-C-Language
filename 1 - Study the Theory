@@ -454,4 +454,11 @@ Overflowing an integer
 unsigned int x = 0;
 x--; // undefined behavior
 
+Mixing signed and unsigned integers
+
+signed int x = -1;
+unsigned int y = 1;
+if (x > y) // undefined behavior
+
+
 
