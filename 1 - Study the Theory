@@ -460,5 +460,19 @@ signed int x = -1;
 unsigned int y = 1;
 if (x > y) // undefined behavior
 
+Accessing a non-static member of a class before the constructor is called
+
+class A {
+  int x;
+public:
+  A() {}
+};
+
+int main() {
+  A a;
+  printf("%d", a.x); // undefined behavior
+  return 0;
+}
+
 
 
