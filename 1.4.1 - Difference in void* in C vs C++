@@ -1,3 +1,0 @@
-void *p;
-int *int_ptr = (int *) p;
-int *arr_ptr = (int *) malloc(sizeof(int) * 10);
