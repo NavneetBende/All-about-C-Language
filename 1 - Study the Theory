@@ -576,7 +576,18 @@ int main() {
   
   return 0;
 }
+
 Output:
 10
-In the C++ example, the print_value function takes a void* argument and prints the value it points to by first casting the pointer to an int* and then dereferencing it.
+
+In the C++ example, 
+the print_value function takes a void* argument and prints the value it points 
+to by first casting the pointer to an int* and then dereferencing it.
+
+Difference in void* in C vs C++
+
+void *p;
+int *int_ptr = (int *) p;
+int *arr_ptr = (int *) malloc(sizeof(int) * 10);
+
 
