@@ -914,3 +914,13 @@ itself is printed.
 This illustrates the difference between character literals in C and C++, and how the type and behaviour of the literals 
 can change depending on the language being used.
 
+
+Example of a character literal in C
+
+#include<stdio.h> 
+int main()
+{
+  printf("a = %d\n", 'a');
+  printf("sizeof('a') =  %lu" , sizeof('a'));
+  return 0;
+}
