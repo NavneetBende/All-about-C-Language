@@ -1303,3 +1303,18 @@ _old         //identifier
 2name       //not identifier
 person-name   //not identifier
 person_2_old       //identifier.
+
+
+Types of Constants
+
+1. Integer constant -The whole values used in the C program are called integer constants.
+Like: 1,53,677 e.t.c.
+
+2. Character constant – The different characters used in the C program are called character constants.
+Like: f, v, s, w, # e.t.c.
+
+3. Float constant – In a C program, such numeric value with a digit after the decimal is called a float constant.
+Like: 4.44444, 34.6634, etc.
+
+4. String constant – Many literal characters are placed under a string literal.
+Like: “rat”, “prep”, etc.
