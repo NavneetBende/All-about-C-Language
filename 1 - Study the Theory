@@ -1318,3 +1318,13 @@ Like: 4.44444, 34.6634, etc.
 
 4. String constant – Many literal characters are placed under a string literal.
 Like: “rat”, “prep”, etc.
+
+
+STRINGS
+
+Declaration of Strings:-
+char string[20] = {‘p’,’r’,’e’,’p’,’I’,’n’,’s’,’t’,’a’,’\0′};
+
+char string[20] = “prepInsta”;
+
+char string[] = “prepInsta”;
