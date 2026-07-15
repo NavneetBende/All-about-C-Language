@@ -1351,3 +1351,27 @@ Semicolon:- In C program after every statement we have to put a semicolon (;) wh
 
  printf("Kamehameha");
  return 6;
+
+OPERATORS
+
+Operators are special symbols that are used to perform mathematical operations like addition, subtraction, division, and multiplication.
+Different types of symbols are used to perform different types of mathematical and logical operations in C programming are known as operators. that symbols.
+
+Types of operators:-
+Unary Operator:– Unary operators are those operators which require only a single operands is known as unary operators.
+          Example: increment and decrements operator.
+
+2. Binary Operator: Those operators which require two operands are known as binary operators.
+
+Binary operators are:–
+
+Arithmetic operator
+Logical operator
+Bitwise operator
+Conditional operator
+Relational operator
+Assignment operator
+
+3. Ternary operator: These operators, which require three operands, are known as ternary operators.
+
+         Example: Conditional operator (?:).
