@@ -1543,6 +1543,17 @@ A variable should be given a type in the C language,  which determines what kind
 It can be:
 
 char: It can hold a character in it.
-int: it is used to hold an integer.
-double: it is used to hold a double value.
-float: it is used to hold a float value.
+int: It is used to hold an integer.
+double: It is used to hold a double value.
+float: It is used to hold a float value.
+
+
+DECLARATION OF A VARIABLE
+
+While programming, you first need to tell the computer/compiler the variable’s name and its data type, 
+When you do that, the compiler creates an empty memory reserved for that data.
+
+In other words, we can say that
+
+When we declare a variable, it allocates memory according to the data type of the variable.
+After declaration of th variable, it takes a garbage value inside it.
