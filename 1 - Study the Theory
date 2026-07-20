@@ -1557,3 +1557,7 @@ In other words, we can say that
 
 When we declare a variable, it allocates memory according to the data type of the variable.
 After declaration of th variable, it takes a garbage value inside it.
+
+Syntax  for  Single Variable Declaration
+
+data_type single_variable_name;
