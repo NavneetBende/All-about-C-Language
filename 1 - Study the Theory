@@ -1561,3 +1561,10 @@ After declaration of th variable, it takes a garbage value inside it.
 Syntax  for  Single Variable Declaration
 
 data_type single_variable_name;
+
+
+Example:
+
+int a;
+float b;
+char c;
