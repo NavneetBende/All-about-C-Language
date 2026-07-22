@@ -1568,3 +1568,14 @@ Example:
 int a;
 float b;
 char c;
+
+
+Source code:
+
+#include<stdio.h>
+int main()
+{
+   int a=25;
+   printf("value of a : %d", a);
+   return 0;
+}
