@@ -1579,3 +1579,8 @@ int main()
    printf("value of a : %d", a);
    return 0;
 }
+
+
+Syntax for Multiple Variable Declaration
+
+data_type multiple_variable_name;
