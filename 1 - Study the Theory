@@ -1584,3 +1584,7 @@ int main()
 Syntax for Multiple Variable Declaration
 
 data_type multiple_variable_name;
+
+For example
+
+int a,b,c;
