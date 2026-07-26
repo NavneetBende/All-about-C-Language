@@ -1603,3 +1603,9 @@ int main()
    printf("\nvalue of c: %d",c);
    return 0;
 }
+
+Variable Initialization
+
+When the variable is initialised, then it allocates memory according to the data type of the variable.
+In variable initialisation, a variable takes only a value.
+Here, a, b, c are variables, and int, float, char are data types. We can also provide the value to the variable during its declaration.
