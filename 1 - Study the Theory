@@ -1622,9 +1622,19 @@ char c = "A" ;
 
 Scope of variables
 
-By scope of a variable we mean which part of the code a variable is accessible (visible) to .A variable can have many scopes in c let’s discuss some of them .
+By scope of a variable, we mean which part of the code a variable is accessible (visible) to . 
+A variable can have many scopes in C; let’s discuss some of them.
 
-According to Scope, variables is divided into two categories:-
+According to Scope, variables are divided into two categories:-
 
 Local Variables
 Global Variables
+
+Local Variable
+
+Local variables are those variables that are defined in a small block of the program, such as a function, 
+control statement block, etc. Such variables are used only by the same block.
+
+A variable inside the function/block is a local variable.
+Local variables are inside the function.
+The default value of local variables is ‘garbage value’.
