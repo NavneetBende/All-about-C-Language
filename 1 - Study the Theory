@@ -1638,3 +1638,16 @@ control statement block, etc. Such variables are used only by the same block.
 A variable inside the function/block is a local variable.
 Local variables are inside the function.
 The default value of local variables is ‘garbage value’.
+
+
+Example
+
+#include<stdio.h> 
+int main()
+{
+     int a,b,c; // local variables
+     a =10;
+     b = 30;
+     c = a + b;
+     printf("%d",c);
+}
