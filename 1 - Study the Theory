@@ -1651,3 +1651,15 @@ int main()
      c = a + b;
      printf("%d",c);
 }
+
+Global variable
+
+As opposed to a local variable, a global variable is outside every function and is accessible to all the functions, 
+and the value of a global variable can be changed by any function.
+
+Global variables are those variables whose scope is the whole program. 
+These variables are defined at the beginning of the program.
+
+Global variables are outside the function.
+Global variables have visibility throughout the program.
+The default value of ‘Global Variables’ is ‘0’.
