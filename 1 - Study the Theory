@@ -1791,3 +1791,18 @@ value of a in main() = 10
 value of a in product() = 10
 value of b in product() = 15
 value of c in main() = 150
+
+
+Representation of Scope :
+
+int main() { --------1--------------------------------------------|
+                                                                  |
+    int a;           // scope of a                                |
+                                                                  |
+    func() {  -------2----------------|                           |
+        int b;  //scope of b          |                           |
+                                      |                           |
+    } ---------------3----------------                            |
+                       // scope of a                              |
+    return 0;                                                     |
+} ----------------4-----------------------------------------------|
