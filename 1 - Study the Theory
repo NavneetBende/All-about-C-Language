@@ -1976,3 +1976,11 @@ UCHAR_MAX : 255
 UINT_MAX : 4294967295
 ULONG_MAX : 18446744073709551615
 USHRT_MAX : 65535
+
+
+Range of Data Types in C Programming Language
+
+Data types in C help programmers work with different types of data in a program. 
+Using them, we can accept and print different types of data. These data types have a definite range of data, 
+and we have to choose the data type according to their range and our data set. 
+Every data type has a range according to the ASCII values of the characters in C.
