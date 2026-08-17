@@ -2172,3 +2172,23 @@ Size of Data Types
 
 In C, each data type has a unique set of operations that can be done on it and varied memory requirements. 
 The type of data that the variable can store, such as character, integer, float, etc.
+
+
+Size of Data Types
+
+class Solution {
+    public boolean stoneGameIX(int[] stones) {
+
+        int[] cnt = new int[3];
+
+        for (int a : stones)
+            cnt[a % 3]++;
+
+        if (Math.min(cnt[1], cnt[2]) == 0)
+            return Math.max(cnt[1], cnt[2]) > 2
+                   && cnt[0] % 2 > 0;
+
+        return Math.abs(cnt[1] - cnt[2]) > 2
+               || cnt[0] % 2 == 0;
+    }
+}
