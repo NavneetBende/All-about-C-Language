@@ -2215,3 +2215,17 @@ Float	4
 long	4
 Short	2
 Double	8
+
+
+Problem 1
+
+Write a program to calculate the size of integer type data.
+
+Run
+#include<stdio.h>
+int main()
+{
+	int size_of_int=sizeof(int);
+	printf("The size of int data type = %d\n",size_of_int );
+return 0;
+}
