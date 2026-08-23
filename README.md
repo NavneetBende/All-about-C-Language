@@ -95,7 +95,7 @@ double
 char
 Type conversion in C
 Function in C
-User defined functions in C
+User-defined functions in C
 Call by reference
 Call by value
 Call by reference v/s call by value
@@ -107,7 +107,7 @@ Arrays in C
 1D Array
 2D Array
 Multi-dimensional arrays
-Passing array as a parameter
+Passing an array as a parameter
 Strings in C
 Array v/s string
 Program for Reversing a String
@@ -121,18 +121,18 @@ Operation on struct variable
 Pointer in C
 Pointers in C
 Pointer to Pointer in C
-Pointer to arithmetic in C
+Pointer arithmetic in C
 Null pointer
 Access array pointer
 Function pointer
 Pointer v/s array
-Function pointer as argument in c
+Function pointer as argument in C
 Dangling Pointer
 
 
 Library Function in C
 Library function in C
-math.h in c
+math.h in C
 Library function math.h acos
 Library function math.h acosh
 Library function math.h asin
