@@ -2246,3 +2246,8 @@ int main()
 	printf("The size of char data type = %d\n",size_of_char );
 return 0;
 }
+
+
+Output:
+
+The size of char data type = 1
