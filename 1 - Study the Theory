@@ -2274,3 +2274,8 @@ class Solution {
         return best;
     }
 }
+
+
+Output:
+
+The size of float data type = 4
