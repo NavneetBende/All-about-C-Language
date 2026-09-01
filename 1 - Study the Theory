@@ -2435,11 +2435,13 @@ Output :
 
 floating constant is 5
 floating constant is 3.123
+
 Character Constant
-When character values to it then it is called a character constant.
-Character constant works as a normal variable.
-Character constant takes only a single character.
+When character values are assigned to it, then it is called a character constant.
+A character constant works as a normal variable.
+A character constant takes only a single character.
 The character constant is also used with escape sequences.
+
 Example :
 
 Run
@@ -2457,10 +2459,12 @@ Output :
 
 character constant is S string constant is Hello    World
 String constant
+
 A string constant is a string array (coming up in later lessons) having fixed string values to it.
 String constant takes a single character and multiple characters.
+
 The value of the string constant is written within the double quotation mark (“”).
-a string constant is also used with escape sequences.
+A string constant is also used with escape sequences.
 Example :
 
 Run
@@ -2478,12 +2482,14 @@ int main()
 
 Output :
 
-string constant with single character : S 
-normal string constant : Hey Somya 
-string with escape sequences : Hey 
-Somya
+string constant with single character: S 
+normal string constant: Hey Somya 
+string with escape sequences: Hey Somya
+
 Constant keyword
-We can define a constant to a program using #define or const int or const float or const char whichever we want and that keyword (identifier) will have a fixed value and can not be changed later (remains a constant).
+
+We can define a constant in a program using #define or const int or const float or const char, 
+whichever we want, and that keyword (identifier) will have a fixed value and can not be changed later (remains a constant).
 Example :
 
 Run
