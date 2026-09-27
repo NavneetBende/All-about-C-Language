@@ -2986,3 +2986,19 @@ If statement
 An if statement is used to make a comparison between two or more set of values, and if that condition or comparison is satisfied then the part of the code written in the if statement will get executed .
 if statement block’s is defined by curly braces{}. When the condition is true then the statement given in this block is executed.
 If the condition is false then skip the entire block.
+
+Syntax of if statement
+
+if(condition)
+{
+      //statements to be executed if condition is true.
+}
+Example:
+Run
+#include
+void main()
+{
+     int a=8;
+     int b=5;        //checks if a is greater than b
+     printf("a is greater than b");
+}
