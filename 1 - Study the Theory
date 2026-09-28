@@ -3002,3 +3002,7 @@ void main()
      int b=5;        //checks if a is greater than b
      printf("a is greater than b");
 }
+
+Output
+
+a is greater than b
