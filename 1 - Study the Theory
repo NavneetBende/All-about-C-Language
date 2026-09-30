@@ -3024,3 +3024,14 @@ Scope Rules in C
 Size of data types in C
 
 Constants in C
+
+
+Syntax of if else statement
+
+if(condition)
+{     
+      //statement to be executed if condition is true
+}
+else
+{  
+    //statement to be executed if condition is false.
