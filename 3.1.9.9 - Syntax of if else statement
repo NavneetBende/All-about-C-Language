@@ -1,7 +1,0 @@
-if(condition)
-{     
-      //statement to be executed if condition is true
-}
-else
-{  
-    //statement to be executed if condition is false.
