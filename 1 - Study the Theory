@@ -3035,3 +3035,7 @@ if(condition)
 else
 {  
     //statement to be executed if condition is false.
+
+Output
+
+a is less than b
