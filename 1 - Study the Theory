@@ -3088,3 +3088,22 @@ if(a==b)   //if a is equal to b
 if(a!=b)  //if a is not equal to b
 if(a==b && a>5)   //if a is equal to b and a is greater than 5
 if(a==b || a>5)  //if a is equal to b or a is greater than 5
+
+
+Switch cases
+
+In a switch case we provide (or take input from the user) a key and give it to the switch and the switch compares that value with its cases and if it is equal it will execute that case and if no cases match then it runs a default case.
+
+Switch case
+Syntax of switch case
+switch(value)
+{    
+    case (condition):
+       //statement to be executed if condition is true
+       break;
+   case (condition):
+      //statement to be executed if condition is true
+      break;
+   default:
+     //statement to be executed if none of the case is true
+}
