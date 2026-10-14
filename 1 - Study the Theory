@@ -3338,3 +3338,13 @@ Why C is a middle level language?
 To understand this let us first understand what higher and lower level languages are with example.
 
 A higher level language would be the language that we humans speaks like simple English and lower level language is that a computer can understand like binary (1s and 0s) called machine language, while C is a middle level language that is between higher and lower level and is also called assembly language. It uses simple words from English like for, if, while, include and also symbols like +, ++, <, %, & to carry out tasks and to interact with our computer.
+
+
+We Used C Language in Following Areas
+
+We can create an Operating System with the help of the C language. Mostly all operating systems are developed in C language like Unix, Windows operating system.
+We can develop assemblers in C language.
+We can develop compilers in C language.
+Network Drivers are also created using C language.
+Text Editors are developed using the C language like Notepad++,gedit e.t.c.
+Database Management System are developed using the C language like oracle database.
