@@ -3348,3 +3348,10 @@ We can develop compilers in C language.
 Network Drivers are also created using C language.
 Text Editors are developed using the C language like Notepad++,gedit e.t.c.
 Database Management System are developed using the C language like oracle database.
+
+Limitations of C language
+
+No exception handling is done.
+We can not reuse the code in C language.
+In C language, no run time type checking is done.
+C language doesn’t support Object Oriented programming.
