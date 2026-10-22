@@ -3467,3 +3467,11 @@ Case Sensitive
 C is a case-sensitive language.
 In case-sensitive programming, all letters are different whether they are small or capital variables, 
 which makes it easy for the programmer to create variables in a program.
+
+
+Middle level language
+
+This is the main feature of C.
+C language is a middle-level language because C language can make high-level and low-level software.
+C language is also used in programming low-level languages, in which  system applications are created. 
+It also supports the features of a high-level language; that’s why the C language is called a middle-level language
