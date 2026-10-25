@@ -3482,3 +3482,9 @@ Structured
 C is  a structured programming language. 
 In this feature, small modules are made to solve any problem, and these small modules are known as functions. 
 By dividing any program into modules, it becomes easy to manage or debug the program.
+
+Memory Management
+
+Memory Management is a good feature in features of C.
+C language supports the feature of dynamic memory allocation.
+We can allocate memory with the help of the free() function.
