@@ -3488,3 +3488,9 @@ Memory Management
 Memory Management is a good feature in features of C.
 C language supports the feature of dynamic memory allocation.
 We can allocate memory with the help of the free() function.
+
+
+Rich Library
+
+This is the most important feature in features of C.
+C language provides various in-built functions, with the help of which we can speed up any program.
