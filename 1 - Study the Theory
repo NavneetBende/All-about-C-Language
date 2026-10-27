@@ -3494,3 +3494,12 @@ Rich Library
 
 This is the most important feature in features of C.
 C language provides various in-built functions, with the help of which we can speed up any program.
+
+
+Pointer and Recursion
+
+C language provides Pointer and recursion features.
+We can  directly handle memory with the help of pointers.
+We use pointers for arrays, functions, and structures.
+In C programming, we can call a function inside a function.
+C language provides code reusability to us.By which we can use the code of any function again.
