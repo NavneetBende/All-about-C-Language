@@ -3503,3 +3503,9 @@ We can  directly handle memory with the help of pointers.
 We use pointers for arrays, functions, and structures.
 In C programming, we can call a function inside a function.
 C language provides code reusability to us.By which we can use the code of any function again.
+
+
+Extensible
+
+In the C programming language, you can add your own user defined library and use it. 
+Because the C language is an extensible programming language and we can add new features easily.
