@@ -3585,3 +3585,9 @@ return 0;
 Output
 Enter the radius: 6
 Area = 113.09
+
+
+Introduction to C Preprocessor
+
+The Preprocessor used in C is one of the important step which is used in the compilation process but it is not a part of the compiler. 
+In simple terms, a preprocessor is system software or a program which process the source code before the compilation step.
