@@ -3624,3 +3624,27 @@ Directive	Description
 #undef	This directive undefines a preprocessor macro.
 #ifdef	This directive returns true if this macro is defined.
 #ifndef	This directive returns true if this macro is not defined.
+
+
+Example
+
+#include <stdio.h>
+#define PI 3.1415
+
+ int main () 
+{
+  
+float r, a;
+  
+printf ("Enter the radius: ");
+  
+scanf ("%f", &r);
+  
+    // Notice, the use of PI
+    a = PI * r * r;
+  
+ 
+printf ("Area=%.2f", a);
+  
+return 0;
+}
