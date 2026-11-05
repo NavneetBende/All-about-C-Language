@@ -3648,3 +3648,8 @@ printf ("Area=%.2f", a);
   
 return 0;
 }
+
+Output
+
+Enter the radius: 6
+Area = 113.09
