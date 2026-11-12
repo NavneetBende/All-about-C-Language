@@ -3813,3 +3813,9 @@ Note
 Programs and applications written in low-level language are directly executable on the computing hardware without any interpretation or translation..
 Low-level languages are appropriate for writing operating systems or firmware for microcontrollers. 
 They can do just about anything with a little bit of work.
+
+Two common types of low-level programming
+
+Assembly language
+Machine language.
+Ex:- “Machine language” and “Assembly language” are the examples of Low level languages.
