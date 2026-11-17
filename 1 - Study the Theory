@@ -3916,3 +3916,13 @@ A low-level programming language is a programming language that provides little 
 Basically, the whole code is performing actions directly on computers hardware, memory, CPU etc
 
 Example : Machine cod, assembly language
+
+Why is C a middle-level language?
+
+It bridges the gap between machine level language and high-level language.
+It can be used for both, system programming (like an operating system)
+As well as application programming (like spreadsheets).
+Middle-level languages are more related to a machine as well as human language. So that’s why it is called “Middle-level language”.
+
+C language merges the best element of high-level language with the rule and flexibility of assembly language. C allows the manipulation of bits and addresses and bytes.
+
