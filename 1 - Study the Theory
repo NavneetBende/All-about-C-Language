@@ -3952,3 +3952,10 @@ Middle-level languages are closely related to machine language as well as human 
 It is user friendly as compared to the previous language.
 Efficiency is increased.
 It is reusable.
+
+
+High-level language
+
+A higher-level language(HLL)  is a language that we humans speak, like simple English. HLL is closer to humans than it is to machines.
+C is a programming language that can be used in Device drivers to create programs or software to access Hardware levels.
+Python, Visual Basic, Perl, and PHP are examples of high-level languages.
