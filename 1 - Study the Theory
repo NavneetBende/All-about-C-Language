@@ -3959,3 +3959,9 @@ High-level language
 A higher-level language(HLL)  is a language that we humans speak, like simple English. HLL is closer to humans than it is to machines.
 C is a programming language that can be used in Device drivers to create programs or software to access Hardware levels.
 Python, Visual Basic, Perl, and PHP are examples of high-level languages.
+
+Middle-Level Languages
+
+These languages can be used to perform system-level coding i.e. operating system and application coding.
+
+Example – C, C++, Java
