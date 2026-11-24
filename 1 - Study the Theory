@@ -3968,5 +3968,13 @@ Example – C, C++, Java
 
 Trivia
 
-Most of the hardware you see in home like - Air coditioner, Microwave, Washing Machine is actually coded in Java
-90% of the PC games are coded in C, C++. Infact unity unreal engine is coded in C, C++, C#
+Most of the hardware you see in your home, like air conditioners, microwaves, and washing machines, is actually coded in Java
+90% of the PC games are coded in C, C++. In fact, Unity and Unreal Engine are coded in C, C++, and C#
+
+Low-Level Languages
+
+A low-level programming language is a programming language that provides little or no abstraction from a computer’s instruction set architecture—commands or functions in the language map that is structurally similar to the processor’s instructions.
+
+Basically, the whole code is performing actions directly on the computer's hardware, memory, CPU etc
+
+Example: Machine code, assembly language
