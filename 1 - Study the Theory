@@ -4041,3 +4041,10 @@ Note
 
 C was invented to write everything from operating system like Oracle database,Git and more.
 We can say that, C is a base for the programming .if you know about “C” language ,you can easily get the knowledge of other programming languages uses the concept of C.
+
+Some facts about “C”
+
+C was developed by Dennis Ritchie in between 1969 and 1973.
+American National Standards Institute (ANSI) had organized the C language in 1988.
+C was invented to write from operating system.
+Linux,Oracle database,PHP are written in C.
